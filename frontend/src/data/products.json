@@ -8,7 +8,7 @@
     "category": "женские",
     "price": 2500,
     "volume": 50,
-    "image": "/images/01-apple-aden.png",
+    "image": "/images/01-apple-aden.webp",
     "comparison": {
       "originalDesc": "Культовый фруктовый аромат. Сочное яблоко, ягоды и ваниль.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -28,7 +28,7 @@
     "category": "унисекс",
     "price": 2500,
     "volume": 50,
-    "image": "/images/02-ixo-mol-col.png",
+    "image": "/images/02-ixo-mol-col.webp",
     "comparison": {
       "originalDesc": "Культовый минималистичный аромат на основе одной молекулы — Iso E Super.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -48,7 +48,7 @@
     "category": "женские",
     "price": 2500,
     "volume": 50,
-    "image": "/images/03-night-crystal.png",
+    "image": "/images/03-night-crystal.webp",
     "comparison": {
       "originalDesc": "Нежный цветочно-фруктовый аромат с ноткой граната и пиона.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -68,7 +68,7 @@
     "category": "унисекс",
     "price": 2500,
     "volume": 50,
-    "image": "/images/04-after-love.png",
+    "image": "/images/04-after-love.webp",
     "comparison": {
       "originalDesc": "Культовый нишевый аромат. Теплая ваниль, мускус и сладкий миндаль.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -88,7 +88,7 @@
     "category": "унисекс",
     "price": 2500,
     "volume": 50,
-    "image": "/images/05-joie-salanity.png",
+    "image": "/images/05-joie-salanity.webp",
     "comparison": {
       "originalDesc": "Культовый одеколон. Свежий, морской и древесный аромат.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -108,7 +108,7 @@
     "category": "женские",
     "price": 2500,
     "volume": 50,
-    "image": "/images/06-lucky-chance.png",
+    "image": "/images/06-lucky-chance.webp",
     "comparison": {
       "originalDesc": "Нежный цветочно-фруктовый аромат. Грейпфрут, жасмин и белый мускус.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -128,7 +128,7 @@
     "category": "женские",
     "price": 2500,
     "volume": 50,
-    "image": "/images/07-fresh-opport.png",
+    "image": "/images/07-fresh-opport.webp",
     "comparison": {
       "originalDesc": "Освежающий цитрусово-цветочный аромат. Лимон, жасмин и ветивер.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -148,7 +148,7 @@
     "category": "женские",
     "price": 2500,
     "volume": 50,
-    "image": "/images/08-enticing.png",
+    "image": "/images/08-enticing.webp",
     "comparison": {
       "originalDesc": "Нежный цветочный аромат. Белые цветы, персик и мускус.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -168,7 +168,7 @@
     "category": "унисекс",
     "price": 2500,
     "volume": 50,
-    "image": "/images/09-pink-sensual.png",
+    "image": "/images/09-pink-sensual.webp",
     "comparison": {
       "originalDesc": "Нишевый молекулярный аромат с розовым перцем и мускусом.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -228,7 +228,7 @@
     "category": "женские",
     "price": 2500,
     "volume": 50,
-    "image": "/images/12-sunday.png",
+    "image": "/images/12-sunday.webp",
     "comparison": {
       "originalDesc": "Свежий цветочный аромат. Апельсин, роза и персик.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -248,7 +248,7 @@
     "category": "унисекс",
     "price": 2500,
     "volume": 50,
-    "image": "/images/13-vanillic-winds.png",
+    "image": "/images/13-vanillic-winds.webp",
     "comparison": {
       "originalDesc": "Чувственный восточный аромат. Ваниль, бобы тонка и мускус.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -268,7 +268,7 @@
     "category": "унисекс",
     "price": 2500,
     "volume": 50,
-    "image": "/images/14-cherry-lure.png",
+    "image": "/images/14-cherry-lure.webp",
     "comparison": {
       "originalDesc": "Соблазнительный нишевый аромат. Черная вишня, горький миндаль и тонка.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -288,7 +288,7 @@
     "category": "унисекс",
     "price": 2500,
     "volume": 50,
-    "image": "/images/15-sweet-tobacco.png",
+    "image": "/images/15-sweet-tobacco.webp",
     "comparison": {
       "originalDesc": "Культовый нишевый аромат. Табак, ваниль и пряности.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -308,7 +308,7 @@
     "category": "унисекс",
     "price": 2500,
     "volume": 50,
-    "image": "/images/16-ganimet.png",
+    "image": "/images/16-ganimet.webp",
     "comparison": {
       "originalDesc": "Нишевый металлический аромат с нотами шафрана и кожи.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -328,7 +328,7 @@
     "category": "унисекс",
     "price": 2500,
     "volume": 50,
-    "image": "/images/17-marcotilia.png",
+    "image": "/images/17-marcotilia.webp",
     "comparison": {
       "originalDesc": "Свежий цветочный аромат с нотами липы и зеленого чая.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -348,7 +348,7 @@
     "category": "унисекс",
     "price": 2500,
     "volume": 50,
-    "image": "/images/18-cashmere-musc.png",
+    "image": "/images/18-cashmere-musc.webp",
     "comparison": {
       "originalDesc": "Культовый нишевый аромат. Завораживающий и стойкий шлейф мускуса.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -368,7 +368,7 @@
     "category": "женские",
     "price": 2500,
     "volume": 50,
-    "image": "/images/19-hayati.png",
+    "image": "/images/19-hayati.webp",
     "comparison": {
       "originalDesc": "Восточный фруктово-цветочный аромат с нотами ревеня и арбуза.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -388,7 +388,7 @@
     "category": "женские",
     "price": 2500,
     "volume": 50,
-    "image": "/images/20-imperatrice.png",
+    "image": "/images/20-imperatrice.webp",
     "comparison": {
       "originalDesc": "Фруктово-цветочный аромат. Арбуз, киви и красные ягоды.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -408,7 +408,7 @@
     "category": "женские",
     "price": 2500,
     "volume": 50,
-    "image": "/images/21-della.png",
+    "image": "/images/21-della.webp",
     "comparison": {
       "originalDesc": "Роскошный нишевый розовый аромат с нотами личи и ванили.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -428,7 +428,7 @@
     "category": "женские",
     "price": 2500,
     "volume": 50,
-    "image": "/images/22-yara.png",
+    "image": "/images/22-yara.webp",
     "comparison": {
       "originalDesc": "Восточный фруктово-цветочный аромат с манго и жасмином.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -448,7 +448,7 @@
     "category": "унисекс",
     "price": 2500,
     "volume": 50,
-    "image": "/images/23-megadare.png",
+    "image": "/images/23-megadare.webp",
     "comparison": {
       "originalDesc": "Нишевый морской аромат. Океанская вода, груша и мускус.",
       "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
@@ -1620,4 +1620,5 @@
     "description": "Белый хрусталь — самый узнаваемый и копируемый аромат мира."
   }
 ]
+
 
