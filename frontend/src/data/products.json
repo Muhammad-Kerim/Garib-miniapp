@@ -1,0 +1,1623 @@
+﻿[
+  {
+    "id": 1,
+    "catalogNumber": "01",
+    "name": "Apple Aden",
+    "originalBrand": "KAYALI",
+    "originalName": "Eden Juicy Apple 01",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/01-apple-aden.png",
+    "comparison": {
+      "originalDesc": "Культовый фруктовый аромат. Сочное яблоко, ягоды и ваниль.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 12000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Яблоко", "Малина", "Личи"], "heart": ["Жасмин", "Роза"], "base": ["Ваниль", "Мускус", "Сандал"] },
+    "description": "Сочный и соблазнительный фруктово-цветочный аромат с нотами спелого яблока."
+  },
+  {
+    "id": 2,
+    "catalogNumber": "02",
+    "name": "Ixo Mol Col",
+    "originalBrand": "Escentric Molecules",
+    "originalName": "Molecule 01",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/02-ixo-mol-col.png",
+    "comparison": {
+      "originalDesc": "Культовый минималистичный аромат на основе одной молекулы — Iso E Super.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 15000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Iso E Super"], "heart": ["Кедр", "Ветивер"], "base": ["Мускус"] },
+    "description": "Минималистичный, невидимый аромат — молекула, которая раскрывается на вашей коже уникально."
+  },
+  {
+    "id": 3,
+    "catalogNumber": "03",
+    "name": "Night Crystal",
+    "originalBrand": "Versace",
+    "originalName": "Bright Crystal",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/03-night-crystal.png",
+    "comparison": {
+      "originalDesc": "Нежный цветочно-фруктовый аромат с ноткой граната и пиона.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 8000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Гранат", "Юзу", "Лёд"], "heart": ["Пион", "Магнолия", "Лотос"], "base": ["Мускус", "Янтарь", "Красное дерево"] },
+    "description": "Нежный, женственный аромат — хрустальная чистота с цветочным сердцем."
+  },
+  {
+    "id": 4,
+    "catalogNumber": "04",
+    "name": "No 4 After Love",
+    "originalBrand": "Thomas Kosmala",
+    "originalName": "Après l'Amour",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/04-after-love.png",
+    "comparison": {
+      "originalDesc": "Культовый нишевый аромат. Теплая ваниль, мускус и сладкий миндаль.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 20000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Апельсин", "Грейпфрут", "Специи"], "heart": ["Роза", "Жасмин", "Ирис"], "base": ["Ваниль", "Мускус", "Сандал"] },
+    "description": "Теплый и чувственный аромат, напоминающий нежность после любви."
+  },
+  {
+    "id": 5,
+    "catalogNumber": "05",
+    "name": "Joie Salanity",
+    "originalBrand": "Jo Malone",
+    "originalName": "Wood Sage & Sea Salt",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/05-joie-salanity.png",
+    "comparison": {
+      "originalDesc": "Культовый одеколон. Свежий, морской и древесный аромат.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 18000,
+      "durabilityOriginal": "до 6 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Морская соль", "Амбретта"], "heart": ["Шалфей", "Морская вода"], "base": ["Кедр", "Ветивер", "Мускус"] },
+    "description": "Свежий морской аромат с деревянными нотками — как прогулка вдоль берега."
+  },
+  {
+    "id": 6,
+    "catalogNumber": "06",
+    "name": "Lucky Chance",
+    "originalBrand": "Chanel",
+    "originalName": "Chance Eau Tendre",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/06-lucky-chance.png",
+    "comparison": {
+      "originalDesc": "Нежный цветочно-фруктовый аромат. Грейпфрут, жасмин и белый мускус.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 16000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Грейпфрут", "Квинс"], "heart": ["Жасмин", "Гиацинт"], "base": ["Белый мускус", "Амбра", "Ирис"] },
+    "description": "Легкий и свежий женский аромат с игривым цветочным характером."
+  },
+  {
+    "id": 7,
+    "catalogNumber": "07",
+    "name": "Fresh Opport",
+    "originalBrand": "Chanel",
+    "originalName": "Chance Eau Fraîche",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/07-fresh-opport.png",
+    "comparison": {
+      "originalDesc": "Освежающий цитрусово-цветочный аромат. Лимон, жасмин и ветивер.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 16000,
+      "durabilityOriginal": "до 6 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Лимон", "Цитрон", "Водяной гиацинт"], "heart": ["Жасмин", "Ирис"], "base": ["Ветивер", "Белый мускус", "Тик"] },
+    "description": "Ультрасвежий и живой женский аромат — энергия каждого утра."
+  },
+  {
+    "id": 8,
+    "catalogNumber": "08",
+    "name": "Enticing",
+    "originalBrand": "Lanvin",
+    "originalName": "Éclat d'Arpège Perles",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/08-enticing.png",
+    "comparison": {
+      "originalDesc": "Нежный цветочный аромат. Белые цветы, персик и мускус.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 7000,
+      "durabilityOriginal": "до 6 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Грейпфрут", "Лимон", "Зеленые листья"], "heart": ["Роза", "Жасмин", "Ландыш"], "base": ["Мускус", "Амбра", "Кедр"] },
+    "description": "Изысканный и деликатный женский аромат с жемчужной нежностью."
+  },
+  {
+    "id": 9,
+    "catalogNumber": "09",
+    "name": "Pink Sensual",
+    "originalBrand": "Zarko Perfume",
+    "originalName": "Pink Molécule 090.09",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/09-pink-sensual.png",
+    "comparison": {
+      "originalDesc": "Нишевый молекулярный аромат с розовым перцем и мускусом.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 25000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Розовый перец", "Бергамот"], "heart": ["Роза", "Пион"], "base": ["Эфсалон", "Мускус", "Амбра"] },
+    "description": "Уникальный молекулярный аромат — розовый, чувственный, незабываемый."
+  },
+  {
+    "id": 10,
+    "catalogNumber": "10",
+    "name": "Scent of Kerke",
+    "originalBrand": "Tiziano Terenzi",
+    "originalName": "Kirke",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/10-scent-of-kerke.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый экзотический аромат. Тропические фрукты, ваниль и сандал.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 35000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Маракуйя", "Манго", "Банан"], "heart": ["Жасмин", "Тубероза"], "base": ["Сандал", "Ваниль", "Мускус"] },
+    "description": "Роскошный экзотический аромат с тропическими фруктами и теплой базой."
+  },
+  {
+    "id": 11,
+    "catalogNumber": "11",
+    "name": "Good And Bad",
+    "originalBrand": "By Kilian",
+    "originalName": "Good Girl Gone Bad",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/11-good-and-bad.jpg",
+    "comparison": {
+      "originalDesc": "Роскошный нишевый букет белых цветов — тубероза, роза и жасмин.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 30000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Грейпфрут", "Тубероза"], "heart": ["Роза", "Жасмин", "Ландыш"], "base": ["Мускус", "Амбра", "Ваниль"] },
+    "description": "Соблазнительный белый цветочный букет — роскошь в каждом движении."
+  },
+  {
+    "id": 12,
+    "catalogNumber": "12",
+    "name": "Sunday",
+    "originalBrand": "Burberry",
+    "originalName": "Weekend",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/12-sunday.png",
+    "comparison": {
+      "originalDesc": "Свежий цветочный аромат. Апельсин, роза и персик.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 9000,
+      "durabilityOriginal": "до 6 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Апельсин", "Мандарин", "Грейпфрут"], "heart": ["Роза", "Пион", "Ландыш"], "base": ["Мускус", "Кедр", "Сандал"] },
+    "description": "Легкий и радостный женский аромат — настроение выходного дня."
+  },
+  {
+    "id": 13,
+    "catalogNumber": "13",
+    "name": "Vanillic Winds",
+    "originalBrand": "Tom Ford",
+    "originalName": "Vanilla Sex",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/13-vanillic-winds.png",
+    "comparison": {
+      "originalDesc": "Чувственный восточный аромат. Ваниль, бобы тонка и мускус.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 28000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Бергамот", "Специи"], "heart": ["Ваниль", "Цветок апельсина"], "base": ["Бобы тонка", "Мускус", "Амбра"] },
+    "description": "Глубокий и чувственный ванильный аромат с восточным характером."
+  },
+  {
+    "id": 14,
+    "catalogNumber": "14",
+    "name": "Cherry Lure",
+    "originalBrand": "Tom Ford",
+    "originalName": "Lost Cherry",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/14-cherry-lure.png",
+    "comparison": {
+      "originalDesc": "Соблазнительный нишевый аромат. Черная вишня, горький миндаль и тонка.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 32000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Черная вишня", "Вишневый ликер"], "heart": ["Горький миндаль", "Тубероза", "Жасмин"], "base": ["Бобы тонка", "Ваниль", "Сандал"] },
+    "description": "Соблазнительный и сладкий аромат черной вишни с ликерным характером."
+  },
+  {
+    "id": 15,
+    "catalogNumber": "15",
+    "name": "Sweet Tobacco",
+    "originalBrand": "Tom Ford",
+    "originalName": "Tobacco Vanille",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/15-sweet-tobacco.png",
+    "comparison": {
+      "originalDesc": "Культовый нишевый аромат. Табак, ваниль и пряности.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 30000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Табак", "Специи", "Имбирь"], "heart": ["Ваниль", "Тонка", "Какао"], "base": ["Деревянные ноты", "Дубовый мох", "Смола"] },
+    "description": "Теплый и обволакивающий аромат с нотами табака и ванили — настоящая классика."
+  },
+  {
+    "id": 16,
+    "catalogNumber": "16",
+    "name": "Ganimet",
+    "originalBrand": "Marc-Antoine Barrois",
+    "originalName": "Ganymede",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/16-ganimet.png",
+    "comparison": {
+      "originalDesc": "Нишевый металлический аромат с нотами шафрана и кожи.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 22000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Металл", "Шафран", "Озон"], "heart": ["Кожа", "Амбра"], "base": ["Ветивер", "Мускус", "Кедр"] },
+    "description": "Авангардный металлический аромат с космическим характером."
+  },
+  {
+    "id": 17,
+    "catalogNumber": "17",
+    "name": "Marcotilia",
+    "originalBrand": "Marc-Antoine Barrois",
+    "originalName": "Tilia",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/17-marcotilia.png",
+    "comparison": {
+      "originalDesc": "Свежий цветочный аромат с нотами липы и зеленого чая.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 22000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Липовый цвет", "Лимон"], "heart": ["Жасмин", "Зеленый чай"], "base": ["Белый мускус", "Кедр"] },
+    "description": "Нежный и чистый аромат — как цветение липы в летний полдень."
+  },
+  {
+    "id": 18,
+    "catalogNumber": "18",
+    "name": "Cashmere Musc",
+    "originalBrand": "Attar Collection",
+    "originalName": "Musk Kashmir",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/18-cashmere-musc.png",
+    "comparison": {
+      "originalDesc": "Культовый нишевый аромат. Завораживающий и стойкий шлейф мускуса.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 8000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Бергамот", "Лимон"], "heart": ["Роза", "Жасмин", "Кашемир"], "base": ["Мускус", "Амбра", "Сандал"] },
+    "description": "Роскошный кашемировый мускус — теплый, обволакивающий, незабываемый."
+  },
+  {
+    "id": 19,
+    "catalogNumber": "19",
+    "name": "Hayati",
+    "originalBrand": "Attar Collection",
+    "originalName": "Hayati",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/19-hayati.png",
+    "comparison": {
+      "originalDesc": "Восточный фруктово-цветочный аромат с нотами ревеня и арбуза.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 7000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Арбуз", "Ревень", "Цитрус"], "heart": ["Пион", "Орхидея", "Жасмин"], "base": ["Мускус", "Сандал", "Амбра"] },
+    "description": "Жизнерадостный и свежий аромат — воплощение радости жизни."
+  },
+  {
+    "id": 20,
+    "catalogNumber": "20",
+    "name": "Imperatrice",
+    "originalBrand": "Dolce & Gabbana",
+    "originalName": "L'Impératrice",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/20-imperatrice.png",
+    "comparison": {
+      "originalDesc": "Фруктово-цветочный аромат. Арбуз, киви и красные ягоды.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 9000,
+      "durabilityOriginal": "до 6 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Арбуз", "Киви", "Красные ягоды"], "heart": ["Роза", "Хибискус"], "base": ["Древесный мускус", "Сандал"] },
+    "description": "Игривый и свежий женский аромат с яркими летними фруктами."
+  },
+  {
+    "id": 21,
+    "catalogNumber": "21",
+    "name": "Della",
+    "originalBrand": "Parfums de Marly",
+    "originalName": "Delina",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/21-della.png",
+    "comparison": {
+      "originalDesc": "Роскошный нишевый розовый аромат с нотами личи и ванили.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 40000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Личи", "Ревень", "Грейпфрут"], "heart": ["Роза", "Пион", "Тубероза"], "base": ["Ваниль", "Мускус", "Кедр"] },
+    "description": "Утончённый розовый букет с нежностью личи — символ женской элегантности."
+  },
+  {
+    "id": 22,
+    "catalogNumber": "22",
+    "name": "Yara",
+    "originalBrand": "Lattafa Perfumes",
+    "originalName": "Yara",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/22-yara.png",
+    "comparison": {
+      "originalDesc": "Восточный фруктово-цветочный аромат с манго и жасмином.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 5000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Манго", "Апельсин", "Личи"], "heart": ["Жасмин", "Роза", "Ваниль"], "base": ["Мускус", "Амбра", "Ветивер"] },
+    "description": "Сладкий и фруктово-цветочный восточный аромат с долгим шлейфом."
+  },
+  {
+    "id": 23,
+    "catalogNumber": "23",
+    "name": "Megadare",
+    "originalBrand": "Orto Parisi",
+    "originalName": "Megamare",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/23-megadare.png",
+    "comparison": {
+      "originalDesc": "Нишевый морской аромат. Океанская вода, груша и мускус.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 28000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Морской воздух", "Груша", "Водоросли"], "heart": ["Морская вода", "Амбра"], "base": ["Мускус", "Древесные ноты"] },
+    "description": "Мощный морской аромат — как удар волны о скалы."
+  },
+  {
+    "id": 24,
+    "catalogNumber": "24",
+    "name": "Floral Charm",
+    "originalBrand": "Ex Nihilo",
+    "originalName": "Fleur Narcotique",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/24-floral-charm.jpg",
+    "comparison": {
+      "originalDesc": "Культовый нишевый аромат. Завораживающий и стойкий шлейф.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 25000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Личи", "Персик", "Мандарин"], "heart": ["Жасмин", "Роза", "Тубероза"], "base": ["Мускус", "Амбра", "Сандал"] },
+    "description": "Опьяняющий цветочный аромат с экзотической притягательностью."
+  },
+  {
+    "id": 25,
+    "catalogNumber": "25",
+    "name": "Blue Insight",
+    "originalBrand": "Ex Nihilo",
+    "originalName": "Blue Talisman",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/25-blue-insight.jpg",
+    "comparison": {
+      "originalDesc": "Культовый нишевый аромат. Завораживающий и стойкий шлейф.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 28000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Бергамот", "Имбирь", "Кардамон"], "heart": ["Фиалка", "Ирис", "Амбра"], "base": ["Ветивер", "Мускус", "Кедр"] },
+    "description": "Голубой талисман — свежий и магнетический аромат с восточными акцентами."
+  },
+  {
+    "id": 26,
+    "catalogNumber": "26",
+    "name": "Rouge Tobacco",
+    "originalBrand": "Mancera Paris",
+    "originalName": "Red Tobacco",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/26-rouge-tobacco.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый пряный аромат. Табак, перец и красные фрукты.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 18000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Красные ягоды", "Перец", "Шафран"], "heart": ["Табак", "Роза"], "base": ["Амбра", "Ваниль", "Дубовый мох"] },
+    "description": "Пряный и страстный аромат с нотами красного табака."
+  },
+  {
+    "id": 27,
+    "catalogNumber": "27",
+    "name": "Imagine",
+    "originalBrand": "Louis Vuitton",
+    "originalName": "Imagination",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/27-imagine.jpg",
+    "comparison": {
+      "originalDesc": "Свежий цитрусово-морской мужской аромат от Louis Vuitton.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 35000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Грейпфрут", "Бергамот", "Морской воздух"], "heart": ["Дерево"], "base": ["Кедр", "Мускус"] },
+    "description": "Свежий и элегантный мужской аромат — свобода воображения."
+  },
+  {
+    "id": 28,
+    "catalogNumber": "28",
+    "name": "Black Pepper Rozen Amber",
+    "originalBrand": "Zielinski & Rozen",
+    "originalName": "Black Pepper & Amber",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/28-black-pepper-amber.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый пряный аромат с черным перцем и янтарем.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 12000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Черный перец", "Кардамон"], "heart": ["Ветивер", "Амбра"], "base": ["Мускус", "Сандал", "Смола"] },
+    "description": "Пряный и тёплый аромат с янтарным шлейфом — сила и элегантность."
+  },
+  {
+    "id": 29,
+    "catalogNumber": "29",
+    "name": "Vanilla Mix",
+    "originalBrand": "Zielinski & Rozen",
+    "originalName": "Vanilla Blend",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/29-vanilla-mix.jpg",
+    "comparison": {
+      "originalDesc": "Нежный ванильный аромат с теплыми пряностями.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 12000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Бергамот", "Кардамон"], "heart": ["Ваниль", "Ирис"], "base": ["Мускус", "Бобы тонка", "Сандал"] },
+    "description": "Уютный и сладкий ванильный аромат с согревающим характером."
+  },
+  {
+    "id": 30,
+    "catalogNumber": "30",
+    "name": "Elmas",
+    "originalBrand": "Kajal",
+    "originalName": "Almaz",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/30-elmas.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый восточный аромат с нотами уда и розы.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 30000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Бергамот", "Шафран"], "heart": ["Роза", "Уд"], "base": ["Мускус", "Амбра", "Сандал"] },
+    "description": "Роскошный восточный аромат с нотами уда — настоящий бриллиант."
+  },
+  {
+    "id": 31,
+    "catalogNumber": "31",
+    "name": "Painter",
+    "originalBrand": "Genyum",
+    "originalName": "Painter",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/31-painter.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый художественный аромат с нотами мяты и кедра.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 15000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Мята", "Лимон", "Камфора"], "heart": ["Лаванда", "Кедр"], "base": ["Мускус", "Ветивер", "Пачули"] },
+    "description": "Свежий и творческий аромат — вдохновение художника на холсте."
+  },
+  {
+    "id": 32,
+    "catalogNumber": "32",
+    "name": "Imperial Essence",
+    "originalBrand": "Essential Parfums",
+    "originalName": "Bois Impérial",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/32-imperial-essence.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый древесный аромат с нотами сандала и ванили.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 18000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Бергамот", "Перец", "Кардамон"], "heart": ["Ветивер", "Сандал"], "base": ["Ваниль", "Мускус", "Амбра"] },
+    "description": "Имперский древесный аромат — монументальный, стойкий, величественный."
+  },
+  {
+    "id": 33,
+    "catalogNumber": "33",
+    "name": "Santal NYTH",
+    "originalBrand": "Le Labo",
+    "originalName": "Santal 33",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/33-santal-nyth.jpg",
+    "comparison": {
+      "originalDesc": "Культовый нишевый аромат. Сандал, фиалка и кедр.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 35000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Кардамон", "Фиалка", "Ирис"], "heart": ["Амбра", "Кожа", "Кедр"], "base": ["Сандал", "Мускус", "Папирус"] },
+    "description": "Иконический нишевый аромат — сандал, который узнают все."
+  },
+  {
+    "id": 34,
+    "catalogNumber": "34",
+    "name": "Tygar",
+    "originalBrand": "Bvlgari",
+    "originalName": "Le Gemme",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/34-tygar.jpg",
+    "comparison": {
+      "originalDesc": "Роскошный нишевый аромат с нотами ладана и смолы.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 45000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Ладан", "Кардамон", "Шафран"], "heart": ["Мирра", "Смола"], "base": ["Сандал", "Уд", "Мускус"] },
+    "description": "Величественный ладанный аромат — драгоценный камень в мире парфюмерии."
+  },
+  {
+    "id": 35,
+    "catalogNumber": "35",
+    "name": "Devil Gamme",
+    "originalBrand": "Haute Fragrance Company",
+    "originalName": "Devil's Intrigue",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/35-devil-gamme.jpg",
+    "comparison": {
+      "originalDesc": "Роскошный нишевый аромат. Чувственный и соблазнительный шлейф.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 42000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Бергамот", "Черная смородина"], "heart": ["Ирис", "Пачули", "Роза"], "base": ["Ваниль", "Мускус", "Сандал"] },
+    "description": "Интригующий и дерзкий аромат — соблазн в каждой ноте."
+  },
+  {
+    "id": 36,
+    "catalogNumber": "36",
+    "name": "Eleysium",
+    "originalBrand": "Roja Parfums",
+    "originalName": "Elysium",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/36-eleysium.jpg",
+    "comparison": {
+      "originalDesc": "Роскошный нишевый цитрусово-древесный аромат.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 60000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Грейпфрут", "Лимон", "Бергамот"], "heart": ["Ветивер", "Жасмин", "Герань"], "base": ["Мускус", "Амбра", "Кедр"] },
+    "description": "Элизиум — рай для ценителей роскошной парфюмерии."
+  },
+  {
+    "id": 37,
+    "catalogNumber": "37",
+    "name": "Oligarch",
+    "originalBrand": "Roja Parfums",
+    "originalName": "Oligarch",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/37-oligarch.jpg",
+    "comparison": {
+      "originalDesc": "Ультра-роскошный нишевый аромат — воплощение богатства.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 80000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Специи", "Бергамот"], "heart": ["Роза", "Ирис", "Кожа"], "base": ["Уд", "Сандал", "Амбра"] },
+    "description": "Символ абсолютной роскоши — аромат для тех, кто привык к лучшему."
+  },
+  {
+    "id": 38,
+    "catalogNumber": "38",
+    "name": "Greatness Oud",
+    "originalBrand": "Initio",
+    "originalName": "Oud for Greatness",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/38-greatness-oud.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый монументальный уд — мощный, дерзкий и незабываемый.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 45000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Шафран", "Кардамон"], "heart": ["Уд", "Мирра"], "base": ["Пачули", "Амбра", "Мускус"] },
+    "description": "Монументальный уд — аромат для великих моментов и великих людей."
+  },
+  {
+    "id": 39,
+    "catalogNumber": "39",
+    "name": "Soul Force",
+    "originalBrand": "Amouage",
+    "originalName": "Guidance",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/39-soul-force.jpg",
+    "comparison": {
+      "originalDesc": "Роскошный нишевый аромат с нотами ладана и кожи.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 55000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Ладан", "Перец", "Шафран"], "heart": ["Кожа", "Роза", "Уд"], "base": ["Мускус", "Амбра", "Сандал"] },
+    "description": "Сила духа в каждой ноте — восточный шедевр от Amouage."
+  },
+  {
+    "id": 40,
+    "catalogNumber": "40",
+    "name": "Happy Mandarine",
+    "originalBrand": "Guerlain",
+    "originalName": "Aqua Allegoria Mandarine Basilic",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/40-happy-mandarine.jpg",
+    "comparison": {
+      "originalDesc": "Свежий и яркий цитрусово-травяной аромат с мандарином и базиликом.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 10000,
+      "durabilityOriginal": "до 6 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Мандарин", "Базилик", "Лимон"], "heart": ["Белые цветы", "Зеленые листья"], "base": ["Белый мускус", "Кедр"] },
+    "description": "Солнечный и бодрящий аромат — радость в каждом флаконе."
+  },
+  {
+    "id": 41,
+    "catalogNumber": "41",
+    "name": "Magical Bloom",
+    "originalBrand": "Memo Paris",
+    "originalName": "Marfa",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/41-magical-bloom.jpg",
+    "comparison": {
+      "originalDesc": "Культовый нишевый аромат. Завораживающий и стойкий шлейф.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 25000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Грейпфрут", "Кедр"], "heart": ["Кашемировое дерево", "Ветивер"], "base": ["Мускус", "Амбра"] },
+    "description": "Магическое цветение пустыни — уникальный и запоминающийся аромат."
+  },
+  {
+    "id": 42,
+    "catalogNumber": "42",
+    "name": "Erba Cyan",
+    "originalBrand": "Xerjoff",
+    "originalName": "Erba Pura",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/42-erba-cyan.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый фруктово-цветочный аромат с нотами белого мускуса.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 45000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Сицилийский апельсин", "Маракуйя"], "heart": ["Белые цветы", "Ваниль"], "base": ["Белый мускус", "Амбра", "Сандал"] },
+    "description": "Итальянская свежесть и роскошь — солнце Сицилии в каждой ноте."
+  },
+  {
+    "id": 43,
+    "catalogNumber": "43",
+    "name": "Narcos",
+    "originalBrand": "Vertus",
+    "originalName": "Narcos'is",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/43-narcos.jpg",
+    "comparison": {
+      "originalDesc": "Эксклюзивный нишевый аромат. Многогранная композиция с характером.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 15000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Ветивер", "Дерево"], "heart": ["Амбра", "Кедр"], "base": ["Мускус", "Пачули"] },
+    "description": "Гипнотический и интригующий аромат — невозможно устоять."
+  },
+  {
+    "id": 44,
+    "catalogNumber": "44",
+    "name": "Afgano",
+    "originalBrand": "Nasomatto",
+    "originalName": "Black Afgano",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/44-afgano.jpg",
+    "comparison": {
+      "originalDesc": "Культовый нишевый тёмный аромат с гашишем и удом.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 35000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Гашиш", "Кофе", "Уд"], "heart": ["Ладан", "Дерево"], "base": ["Смола", "Пачули", "Мускус"] },
+    "description": "Тёмный и загадочный — смолистый аромат с восточным характером."
+  },
+  {
+    "id": 45,
+    "catalogNumber": "45",
+    "name": "Mango Charm",
+    "originalBrand": "Vilhelm Parfumerie",
+    "originalName": "Mango Skin",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/45-mango-charm.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый фруктовый аромат с нотами манго и кокоса.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 22000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Манго", "Цитрус"], "heart": ["Жасмин", "Кокос"], "base": ["Мускус", "Ваниль", "Сандал"] },
+    "description": "Тропическая чувственность — спелый манго и кожа под солнцем."
+  },
+  {
+    "id": 46,
+    "catalogNumber": "46",
+    "name": "Shadow Play",
+    "originalBrand": "Nishane",
+    "originalName": "Hacivat",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/46-shadow-play.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый цитрусово-древесный аромат с нотами пачули и кедра.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 30000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Грейпфрут", "Ананас", "Бергамот"], "heart": ["Пачули", "Ирис", "Жасмин"], "base": ["Кедр", "Ваниль", "Мускус"] },
+    "description": "Театр теней — многогранный аромат с пачулевым характером."
+  },
+  {
+    "id": 47,
+    "catalogNumber": "47",
+    "name": "Silent",
+    "originalBrand": "Nishane",
+    "originalName": "Hundred Silent Ways",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/47-silent.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый розовый аромат с нотами кожи и амбры.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 30000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Роза", "Бергамот"], "heart": ["Кожа", "Амбра", "Ирис"], "base": ["Мускус", "Ветивер", "Сандал"] },
+    "description": "Сто молчаливых способов выразить чувства — розовый и кожаный."
+  },
+  {
+    "id": 48,
+    "catalogNumber": "48",
+    "name": "Africa",
+    "originalBrand": "Byredo",
+    "originalName": "Bal d'Afrique",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/48-africa.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый цветочно-мускусный аромат с нотами нероли и амбры.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 35000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Нероли", "Бергамот", "Африканский марокканский апельсин"], "heart": ["Ветивер", "Жасмин", "Виолет"], "base": ["Мускус", "Амбра", "Кедр"] },
+    "description": "Бал в Африке — экзотический и чувственный танец ароматов."
+  },
+  {
+    "id": 49,
+    "catalogNumber": "49",
+    "name": "Hedonistic",
+    "originalBrand": "Clive Christian",
+    "originalName": "Kiss Me Hedonistic",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/49-hedonistic.jpg",
+    "comparison": {
+      "originalDesc": "Ультра-роскошный нишевый цветочный аромат.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 70000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Грейпфрут", "Бергамот", "Личи"], "heart": ["Роза", "Жасмин", "Пион"], "base": ["Мускус", "Амбра", "Ваниль"] },
+    "description": "Поцелуй гедонизма — роскошный цветочный аромат без компромиссов."
+  },
+  {
+    "id": 50,
+    "catalogNumber": "50",
+    "name": "Matsukita",
+    "originalBrand": "Clive Christian",
+    "originalName": "Collection Matsukita",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/50-matsukita.jpg",
+    "comparison": {
+      "originalDesc": "Роскошный нишевый японский аромат с нотами сосны и мускуса.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 65000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Японский кедр", "Сосна", "Юзу"], "heart": ["Сандал", "Ветивер"], "base": ["Мускус", "Амбра"] },
+    "description": "Японский сад — чистота, минимализм и природная роскошь."
+  },
+  {
+    "id": 51,
+    "catalogNumber": "51",
+    "name": "Amberlive",
+    "originalBrand": "Clive Christian",
+    "originalName": "XXI Art Deco Ambre",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/51-amberlive.jpg",
+    "comparison": {
+      "originalDesc": "Роскошный янтарный аромат в стиле ар-деко.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 70000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Специи", "Бергамот"], "heart": ["Амбра", "Ваниль", "Роза"], "base": ["Сандал", "Мускус", "Кашемир"] },
+    "description": "Золотая эпоха ар-деко — янтарная роскошь вне времени."
+  },
+  {
+    "id": 52,
+    "catalogNumber": "52",
+    "name": "Symphony Rus",
+    "originalBrand": "Louis Vuitton",
+    "originalName": "Symphony",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/52-symphony-rus.jpg",
+    "comparison": {
+      "originalDesc": "Свежий цветочно-древесный аромат от Louis Vuitton.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 38000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Бергамот", "Кардамон"], "heart": ["Ирис", "Ветивер"], "base": ["Кедр", "Мускус", "Амбра"] },
+    "description": "Симфония природы — гармоничный и элегантный древесный аромат."
+  },
+  {
+    "id": 53,
+    "catalogNumber": "53",
+    "name": "Big Ocean",
+    "originalBrand": "Louis Vuitton",
+    "originalName": "Pacific Chill",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/53-big-ocean.jpg",
+    "comparison": {
+      "originalDesc": "Свежий морской аромат с нотами кокоса и кедра.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 38000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Кокос", "Мята", "Морской воздух"], "heart": ["Бергамот", "Кедр"], "base": ["Мускус", "Амбра"] },
+    "description": "Тихоокеанская прохлада — бескрайний океан в одном флаконе."
+  },
+  {
+    "id": 54,
+    "catalogNumber": "54",
+    "name": "Afternoon Energy",
+    "originalBrand": "Louis Vuitton",
+    "originalName": "Afternoon Swim",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/54-afternoon-energy.jpg",
+    "comparison": {
+      "originalDesc": "Свежий летний аромат с нотами гелиотропа и мускуса.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 38000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Мандарин", "Бергамот"], "heart": ["Гелиотроп", "Жасмин"], "base": ["Мускус", "Амбра", "Кедр"] },
+    "description": "Послеполуденный заплыв — свежесть и беззаботность летнего дня."
+  },
+  {
+    "id": 55,
+    "catalogNumber": "55",
+    "name": "Signora Fiorita",
+    "originalBrand": "Dior",
+    "originalName": "Miss Dior Blooming Bouquet",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/55-signora-fiorita.jpg",
+    "comparison": {
+      "originalDesc": "Нежный цветочный аромат. Пион, белый мускус и грейпфрут.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 14000,
+      "durabilityOriginal": "до 6 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Грейпфрут", "Мандарин"], "heart": ["Пион", "Роза"], "base": ["Белый мускус", "Красное дерево"] },
+    "description": "Цветущий букет синьоры — нежность и женственность в каждой ноте."
+  },
+  {
+    "id": 56,
+    "catalogNumber": "56",
+    "name": "Adoria",
+    "originalBrand": "Dior",
+    "originalName": "J'adore",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/56-adoria.jpg",
+    "comparison": {
+      "originalDesc": "Культовый цветочный аромат. Иланг-иланг, роза и жасмин.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 15000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Мандарин", "Груша", "Гардения"], "heart": ["Иланг-иланг", "Роза", "Жасмин"], "base": ["Мускус", "Амбра", "Ваниль"] },
+    "description": "Обожание в каждой капле — флагманский цветочный аромат Dior."
+  },
+  {
+    "id": 57,
+    "catalogNumber": "57",
+    "name": "Wilder",
+    "originalBrand": "Dior",
+    "originalName": "Sauvage",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/57-wilder.jpg",
+    "comparison": {
+      "originalDesc": "Самый продаваемый мужской аромат. Бергамот, перец и амбра.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 14000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Бергамот", "Перец"], "heart": ["Лаванда", "Ветивер", "Герань"], "base": ["Амбра", "Кедр", "Лабданум"] },
+    "description": "Дикий и харизматичный — самый узнаваемый мужской аромат современности."
+  },
+  {
+    "id": 58,
+    "catalogNumber": "58",
+    "name": "Liberty",
+    "originalBrand": "Yves Saint Laurent",
+    "originalName": "Libre",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/58-liberty.jpg",
+    "comparison": {
+      "originalDesc": "Смелый цветочно-мускусный аромат. Лаванда, мандарин и амбра.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 14000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Мандарин", "Бергамот", "Лаванда"], "heart": ["Жасмин", "Лаванда Прованса"], "base": ["Амбра", "Ваниль", "Мускус"] },
+    "description": "Свобода — мощный и независимый женский аромат с лавандовым сердцем."
+  },
+  {
+    "id": 59,
+    "catalogNumber": "59",
+    "name": "Aqua The Man",
+    "originalBrand": "Giorgio Armani",
+    "originalName": "Acqua di Giò",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/59-aqua-the-man.jpg",
+    "comparison": {
+      "originalDesc": "Культовый морской аромат. Морская вода, бергамот и пачули.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 11000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Морская вода", "Бергамот", "Лимон"], "heart": ["Жасмин", "Роза", "Фрезия"], "base": ["Пачули", "Кедр", "Мускус"] },
+    "description": "Вода жизни — иконический морской аромат, покоривший мир."
+  },
+  {
+    "id": 60,
+    "catalogNumber": "60",
+    "name": "Deep Power",
+    "originalBrand": "Emporio Armani",
+    "originalName": "Stronger With You Intensely",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/60-deep-power.jpg",
+    "comparison": {
+      "originalDesc": "Интенсивный мужской аромат с нотами ванили, амбры и кардамона.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 12000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Кардамон", "Лаванда", "Черный перец"], "heart": ["Фиалка", "Кашемир"], "base": ["Ваниль", "Смола", "Амбра"] },
+    "description": "Глубокая сила — интенсивный аромат для уверенных мужчин."
+  },
+  {
+    "id": 61,
+    "catalogNumber": "61",
+    "name": "My Mode",
+    "originalBrand": "Giorgio Armani",
+    "originalName": "My Way",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/61-my-mode.jpg",
+    "comparison": {
+      "originalDesc": "Цветочный аромат свободы. Нероли, жасмин Индии и белый мускус.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 13000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Бергамот", "Нероли", "Мандарин"], "heart": ["Жасмин", "Тубероза", "Ирис"], "base": ["Белый мускус", "Кедр", "Ваниль"] },
+    "description": "Мой путь — цветочный гимн свободе и женской независимости."
+  },
+  {
+    "id": 62,
+    "catalogNumber": "62",
+    "name": "White Croc",
+    "originalBrand": "Lacoste",
+    "originalName": "L.12.12 Blanc",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/62-white-croc.jpg",
+    "comparison": {
+      "originalDesc": "Свежий цитрусово-древесный мужской аромат.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 8000,
+      "durabilityOriginal": "до 6 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Грейпфрут", "Кориандр", "Базилик"], "heart": ["Жасмин", "Пачули"], "base": ["Кедр", "Ветивер", "Мускус"] },
+    "description": "Белый крокодил — чистота, свежесть и спортивная элегантность."
+  },
+  {
+    "id": 63,
+    "catalogNumber": "63",
+    "name": "Alligator",
+    "originalBrand": "Lacoste",
+    "originalName": "Pour Femme",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/63-alligator.jpg",
+    "comparison": {
+      "originalDesc": "Нежный цветочный женский аромат с нотами пиона и мускуса.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 8000,
+      "durabilityOriginal": "до 6 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Грейпфрут", "Лимон"], "heart": ["Пион", "Роза", "Жасмин"], "base": ["Мускус", "Кедр", "Сандал"] },
+    "description": "Женственный и свежий — цветочная нежность Lacoste."
+  },
+  {
+    "id": 64,
+    "catalogNumber": "64",
+    "name": "Blue Man",
+    "originalBrand": "Chanel",
+    "originalName": "Bleu de Chanel",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/64-blue-man.jpg",
+    "comparison": {
+      "originalDesc": "Культовый мужской аромат. Цитрус, ладан и кедр.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 16000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Лимон", "Мята", "Розовый перец"], "heart": ["Имбирь", "Нутмег", "Жасмин"], "base": ["Кедр", "Сандал", "Ладан"] },
+    "description": "Голубой Шанель — эталон современного мужского аромата."
+  },
+  {
+    "id": 65,
+    "catalogNumber": "65",
+    "name": "Plato",
+    "originalBrand": "Chanel",
+    "originalName": "Égoïste Platinium",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/65-plato.jpg",
+    "comparison": {
+      "originalDesc": "Классический мужской аромат. Кедр, сандал и мускус.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 12000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Нотки цитруса", "Нероли"], "heart": ["Кориандр", "Сандал", "Гвоздика"], "base": ["Кедр", "Ветивер", "Мускус"] },
+    "description": "Платиновый эгоист — классика мужской элегантности от Chanel."
+  },
+  {
+    "id": 66,
+    "catalogNumber": "66",
+    "name": "Gardenia Glam",
+    "originalBrand": "Gucci",
+    "originalName": "Flora Gorgeous Gardenia",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/66-gardenia-glam.jpg",
+    "comparison": {
+      "originalDesc": "Нежный цветочный аромат с нотами гардении и грейпфрута.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 12000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Красный апельсин", "Грейпфрут"], "heart": ["Гардения", "Жасмин", "Груша"], "base": ["Коричневый сахар", "Пачули"] },
+    "description": "Гламур гардении — пышный цветочный букет от Gucci."
+  },
+  {
+    "id": 67,
+    "catalogNumber": "67",
+    "name": "Sweet Cloe",
+    "originalBrand": "Chloé",
+    "originalName": "Chloé Eau de Parfum",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/67-sweet-cloe.jpg",
+    "comparison": {
+      "originalDesc": "Нежный розовый аромат. Пион, роза и кедр.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 12000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Пион", "Литчи", "Фрезия"], "heart": ["Роза", "Магнолия"], "base": ["Кедр", "Амбра", "Мускус"] },
+    "description": "Сладкая Хлоя — розовая нежность для настоящих романтиков."
+  },
+  {
+    "id": 68,
+    "catalogNumber": "68",
+    "name": "True Donna",
+    "originalBrand": "Trussardi",
+    "originalName": "Donna Pour Femme",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/68-true-donna.jpg",
+    "comparison": {
+      "originalDesc": "Цветочный женский аромат с нотами розы и персика.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 8000,
+      "durabilityOriginal": "до 6 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Бергамот", "Груша", "Малина"], "heart": ["Роза", "Ирис", "Персик"], "base": ["Сандал", "Мускус", "Амбра"] },
+    "description": "Настоящая женщина — изысканный итальянский цветочный аромат."
+  },
+  {
+    "id": 69,
+    "catalogNumber": "69",
+    "name": "Linderdit",
+    "originalBrand": "Givenchy",
+    "originalName": "L'Interdit",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/69-linderdit.jpg",
+    "comparison": {
+      "originalDesc": "Запретный белый цветочный аромат с нотами пачули.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 12000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Груша", "Бергамот", "Грейпфрут"], "heart": ["Тубероза", "Жасмин", "Апельсиновый цвет"], "base": ["Пачули", "Ветивер", "Белый мускус"] },
+    "description": "Запретный аромат — белые цветы с тёмным пачулевым сердцем."
+  },
+  {
+    "id": 70,
+    "catalogNumber": "70",
+    "name": "Nice The Life",
+    "originalBrand": "Lancôme",
+    "originalName": "La Vie Est Belle",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/70-nice-the-life.jpg",
+    "comparison": {
+      "originalDesc": "Самый продаваемый женский аромат. Ирис, пралине и ваниль.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 13000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Грушевая роса", "Черная смородина"], "heart": ["Ирис", "Жасмин", "Пион"], "base": ["Пралине", "Ваниль", "Пачули"] },
+    "description": "Жизнь прекрасна — сладкий гурманский аромат для счастливых женщин."
+  },
+  {
+    "id": 71,
+    "catalogNumber": "71",
+    "name": "Big Boss",
+    "originalBrand": "Hugo Boss",
+    "originalName": "Boss Bottled",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/71-big-boss.jpg",
+    "comparison": {
+      "originalDesc": "Классический мужской аромат. Яблоко, корица и ваниль.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 9000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Яблоко", "Специи", "Лимон"], "heart": ["Корица", "Гвоздика", "Герань"], "base": ["Ваниль", "Сандал", "Оливковое дерево"] },
+    "description": "Большой босс — классический мужской аромат уверенного лидера."
+  },
+  {
+    "id": 72,
+    "catalogNumber": "72",
+    "name": "Diva",
+    "originalBrand": "Kajal",
+    "originalName": "Dahab",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/72-diva.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый восточный аромат с нотами уда и мускуса.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 28000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Шафран", "Бергамот"], "heart": ["Роза", "Уд", "Амбра"], "base": ["Мускус", "Сандал", "Ваниль"] },
+    "description": "Дива востока — золотой восточный аромат с королевским характером."
+  },
+  {
+    "id": 73,
+    "catalogNumber": "73",
+    "name": "This Is Not Gaba",
+    "originalBrand": "Hormone Paris",
+    "originalName": "Gaba",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/73-this-is-not-gaba.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый авангардный аромат с нотами гамма-аминомасляной кислоты.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 20000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Бергамот", "Мускус"], "heart": ["Амбра", "Кедр"], "base": ["Ветивер", "Сандал"] },
+    "description": "Провокационный и современный — аромат, который разрушает правила."
+  },
+  {
+    "id": 74,
+    "catalogNumber": "74",
+    "name": "Parabene",
+    "originalBrand": "Paco Rabanne",
+    "originalName": "Invictus",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/74-parabene.jpg",
+    "comparison": {
+      "originalDesc": "Мощный мужской аромат. Грейпфрут, лавровый лист и пачули.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 11000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Грейпфрут", "Морская вода", "Мята"], "heart": ["Лавровый лист", "Жасмин", "Гуаяк"], "base": ["Пачули", "Дубовый мох", "Амбра"] },
+    "description": "Непобедимый — мощный и победоносный мужской аромат."
+  },
+  {
+    "id": 75,
+    "catalogNumber": "75",
+    "name": "Cmilka",
+    "originalBrand": "Vilhelm Parfumerie",
+    "originalName": "Chimilka",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/75-cmilka.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый свежий аромат с нотами мяты и базилика.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 22000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Мята", "Базилик", "Лимон"], "heart": ["Жасмин", "Зеленые ноты"], "base": ["Мускус", "Кедр"] },
+    "description": "Травяная свежесть с характером — живой и натуральный аромат."
+  },
+  {
+    "id": 76,
+    "catalogNumber": "76",
+    "name": "Avendator",
+    "originalBrand": "Creed",
+    "originalName": "Aventus",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/76-avendator.jpg",
+    "comparison": {
+      "originalDesc": "Легендарный нишевый аромат. Ананас, береза и мускус.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 70000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Ананас", "Черная смородина", "Яблоко"], "heart": ["Береза", "Жасмин", "Роза"], "base": ["Мускус", "Дубовый мох", "Амбра"] },
+    "description": "Легенда парфюмерии — статус и успех в одном флаконе."
+  },
+  {
+    "id": 77,
+    "catalogNumber": "77",
+    "name": "Just Now",
+    "originalBrand": "Rave",
+    "originalName": "Now",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/77-just-now.jpg",
+    "comparison": {
+      "originalDesc": "Свежий и динамичный аромат.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 10000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Бергамот", "Цитрус"], "heart": ["Жасмин", "Амбра"], "base": ["Мускус", "Кедр"] },
+    "description": "Здесь и сейчас — динамичный аромат для активной жизни."
+  },
+  {
+    "id": 78,
+    "catalogNumber": "78",
+    "name": "Angels Interest",
+    "originalBrand": "By Kilian",
+    "originalName": "Angels' Share",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/78-angels-interest.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый гурманский аромат. Коньяк, кардамон и ваниль.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 40000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Коньяк", "Кардамон", "Корица"], "heart": ["Ваниль", "Миндаль", "Тонка"], "base": ["Сандал", "Кедр", "Мускус"] },
+    "description": "Доля ангелов — гурманский аромат с нотами коньяка и ванили."
+  },
+  {
+    "id": 79,
+    "catalogNumber": "79",
+    "name": "White Chocolate",
+    "originalBrand": "Christian Richard",
+    "originalName": "White Chocolate",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/79-white-chocolate.jpg",
+    "comparison": {
+      "originalDesc": "Нишевый гурманский аромат с нотами белого шоколада и ванили.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 18000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": { "top": ["Кокос", "Ваниль"], "heart": ["Белый шоколад", "Миндаль"], "base": ["Мускус", "Бобы тонка", "Сандал"] },
+    "description": "Белый шоколад — нежный и сладкий гурманский аромат."
+  },
+  {
+    "id": 80,
+    "catalogNumber": "540a",
+    "name": "Crystal Red",
+    "originalBrand": "Maison Francis Kurkdjian",
+    "originalName": "Baccarat Rouge 540 Extrait",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/80-crystal-red.jpg",
+    "comparison": {
+      "originalDesc": "Культовый нишевый аромат. Шафран, жасмин и красный кедр.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 80000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Шафран", "Жасмин"], "heart": ["Амброксан", "Кедр"], "base": ["Эрокс", "Бессмертник", "Мускус"] },
+    "description": "Хрустальный рубин — самый желанный аромат современности в концентрированном экстракте."
+  },
+  {
+    "id": 81,
+    "catalogNumber": "540b",
+    "name": "Crystal White",
+    "originalBrand": "Maison Francis Kurkdjian",
+    "originalName": "Baccarat Rouge 540",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/81-crystal-white.jpg",
+    "comparison": {
+      "originalDesc": "Культовый нишевый аромат. Шафран, жасмин и амброксан.",
+      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
+      "originalPrice": 60000,
+      "durabilityOriginal": "до 12 часов",
+      "durabilityS": "до 10 часов"
+    },
+    "notes": { "top": ["Шафран", "Жасмин"], "heart": ["Амброксан", "Кедр"], "base": ["Эрокс", "Бессмертник", "Мускус"] },
+    "description": "Белый хрусталь — самый узнаваемый и копируемый аромат мира."
+  }
+]
+

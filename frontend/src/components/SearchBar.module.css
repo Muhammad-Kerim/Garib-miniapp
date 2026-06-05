@@ -1,0 +1,35 @@
+.wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: var(--bg-card);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0 14px;
+  gap: 10px;
+}
+
+.icon {
+  color: var(--color-muted);
+  flex-shrink: 0;
+}
+
+.input {
+  flex: 1;
+  padding: 13px 0;
+  font-size: 15px;
+  background: none;
+  border: none;
+  color: var(--color-primary);
+}
+
+.input::placeholder {
+  color: var(--color-muted);
+}
+
+.clear {
+  background: none;
+  color: var(--color-muted);
+  font-size: 13px;
+  padding: 4px;
+}

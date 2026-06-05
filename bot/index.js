@@ -1,0 +1,59 @@
+require('dotenv').config()
+const TelegramBot = require('node-telegram-bot-api')
+const express = require('express')
+const cors = require('cors')
+
+const BOT_TOKEN = process.env.BOT_TOKEN
+const MANAGER_CHAT_ID = process.env.MANAGER_CHAT_ID
+const MINI_APP_URL = process.env.MINI_APP_URL || 'https://your-app.vercel.app'
+const PORT = process.env.PORT || 3001
+
+const bot = new TelegramBot(BOT_TOKEN, { polling: true })
+const app = express()
+app.use(cors())
+app.use(express.json())
+
+let orderCounter = 1
+
+bot.onText(/\/start/, (msg) => {
+  const chatId = msg.chat.id
+  bot.sendMessage(chatId, '👋 Добро пожаловать в garib — парфюмерный магазин!\n\nОткройте каталог и выберите ароматы:', {
+    reply_markup: {
+      inline_keyboard: [[{
+        text: '🛍 Открыть каталог',
+        web_app: { url: MINI_APP_URL }
+      }]]
+    }
+  })
+})
+
+app.post('/order', async (req, res) => {
+  try {
+    const { name, phone, address, comment, items, total } = req.body
+
+    const itemsText = items
+      .map(i => `• ${i.name} ${i.volume}мл — ${i.qty} шт. × ${i.price.toLocaleString('ru')} ₽ = ${(i.qty * i.price).toLocaleString('ru')} ₽`)
+      .join('\n')
+
+    const message = `🛍 Новый заказ #${orderCounter++}
+
+👤 Имя: ${name}
+📞 Телефон: ${phone}
+📍 Адрес: ${address}${comment ? `\n💬 Комментарий: ${comment}` : ''}
+
+📦 Состав заказа:
+${itemsText}
+
+💰 Итого: ${total.toLocaleString('ru')} ₽`
+
+    await bot.sendMessage(MANAGER_CHAT_ID, message)
+    res.json({ ok: true })
+  } catch (err) {
+    console.error(err)
+    res.status(500).json({ ok: false })
+  }
+})
+
+app.get('/health', (_, res) => res.json({ ok: true }))
+
+app.listen(PORT, () => console.log(`Bot server running on port ${PORT}`))

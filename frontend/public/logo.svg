@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" fill="none">
+  <!-- Stars -->
+  <path d="M60 8 L62 14 L68 16 L62 18 L60 24 L58 18 L52 16 L58 14 Z" fill="#1A1A1A"/>
+  <path d="M90 4 L91.5 9 L97 10.5 L91.5 12 L90 17 L88.5 12 L83 10.5 L88.5 9 Z" fill="#1A1A1A"/>
+  <path d="M115 8 L116.5 13 L122 14.5 L116.5 16 L115 21 L113.5 16 L108 14.5 L113.5 13 Z" fill="#1A1A1A"/>
+  <!-- Mountains -->
+  <path d="M40 45 L75 15 L95 35 L115 12 L150 45" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M30 45 C50 45 160 45 165 45" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round"/>
+  <!-- Swoosh -->
+  <path d="M35 47 Q100 55 160 47" stroke="#1A1A1A" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- Text -->
+  <text x="100" y="72" font-family="Georgia, serif" font-size="22" font-style="italic" text-anchor="middle" fill="#1A1A1A" letter-spacing="2">garib</text>
+</svg>

@@ -1,0 +1,28 @@
+.wrap {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  scrollbar-width: none;
+}
+
+.wrap::-webkit-scrollbar { display: none; }
+
+.btn {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border-radius: 100px;
+  background: var(--bg-card);
+  border: 1.5px solid var(--color-border);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-muted);
+  text-transform: capitalize;
+  transition: all 0.15s;
+}
+
+.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
