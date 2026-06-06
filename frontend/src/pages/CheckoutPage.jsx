@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { useCartStore } from '../store/cartStore'
 import styles from './CheckoutPage.module.css'
 
-const BOT_URL = 'https://your-bot-url.com/order'
+const BOT_URL = 'https://garib-miniapp-production.up.railway.app/order'
 
 export default function CheckoutPage() {
   const navigate = useNavigate()
