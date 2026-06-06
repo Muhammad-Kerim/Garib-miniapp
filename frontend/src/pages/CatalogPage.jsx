@@ -4,7 +4,6 @@ import products from '../data/products.json'
 import ProductCard from '../components/ProductCard'
 import SearchBar from '../components/SearchBar'
 import CategoryFilter from '../components/CategoryFilter'
-import CartIcon from '../components/CartIcon'
 import styles from './CatalogPage.module.css'
 
 const CHANNEL_URL = 'https://t.me/dukhi_parfumeria'
@@ -30,7 +29,6 @@ export default function CatalogPage() {
     <div className="page">
       <header className={styles.header}>
         <img src="/logo.png" alt="garib" className={styles.logo} />
-        <CartIcon />
       </header>
 
       <div className={styles.content}>

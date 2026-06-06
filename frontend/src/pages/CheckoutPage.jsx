@@ -1,30 +1,37 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useCartStore } from '../store/cartStore'
+import { useHistoryStore } from '../store/historyStore'
 import styles from './CheckoutPage.module.css'
 
 const BOT_URL = 'https://garib-miniapp-production.up.railway.app/order'
+const DELIVERY_OPTIONS = ['СДЭК', 'Почта России', 'Озон']
 
 export default function CheckoutPage() {
   const navigate = useNavigate()
   const { items, clearCart } = useCartStore()
+  const { addOrder } = useHistoryStore()
   const total = items.reduce((sum, i) => sum + i.price * i.qty, 0)
 
   const [form, setForm] = useState({ name: '', phone: '', address: '', comment: '' })
+  const [delivery, setDelivery] = useState('')
   const [sent, setSent] = useState(false)
   const [loading, setLoading] = useState(false)
 
   const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value })
 
+  const canSubmit = form.name && form.phone && form.address && delivery
+
   const handleSubmit = async (e) => {
     e.preventDefault()
-    if (!form.name || !form.phone || !form.address) return
+    if (!canSubmit) return
 
     setLoading(true)
     try {
       const tgUser = window.Telegram?.WebApp?.initDataUnsafe?.user
       const orderData = {
         ...form,
+        delivery,
         tgUser: tgUser ? {
           id: tgUser.id,
           username: tgUser.username,
@@ -45,6 +52,8 @@ export default function CheckoutPage() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(orderData),
       })
+
+      addOrder({ ...form, delivery, items: orderData.items, total })
     } catch {}
 
     clearCart()
@@ -121,13 +130,13 @@ export default function CheckoutPage() {
               />
             </div>
             <div className={styles.field}>
-              <label className={styles.label}>Адрес доставки *</label>
+              <label className={styles.label}>Адрес / Индекс / Пункт выдачи *</label>
               <input
                 className={styles.input}
                 name="address"
                 value={form.address}
                 onChange={handleChange}
-                placeholder="Город, улица, дом, квартира"
+                placeholder="Город, улица, дом или индекс"
                 required
               />
             </div>
@@ -138,10 +147,26 @@ export default function CheckoutPage() {
                 name="comment"
                 value={form.comment}
                 onChange={handleChange}
-                placeholder="Удобное время доставки, пожелания..."
+                placeholder="Пожелания к заказу..."
                 rows={3}
               />
             </div>
+          </div>
+        </div>
+
+        <div className={styles.section}>
+          <h3 className={styles.sectionTitle}>Способ доставки *</h3>
+          <div className={styles.deliveryOptions}>
+            {DELIVERY_OPTIONS.map(opt => (
+              <button
+                key={opt}
+                type="button"
+                className={`${styles.deliveryBtn} ${delivery === opt ? styles.deliveryActive : ''}`}
+                onClick={() => setDelivery(opt)}
+              >
+                {opt}
+              </button>
+            ))}
           </div>
         </div>
 
@@ -164,7 +189,7 @@ export default function CheckoutPage() {
         <button
           type="submit"
           className="btn-primary"
-          disabled={loading || !form.name || !form.phone || !form.address}
+          disabled={loading || !canSubmit}
         >
           {loading ? 'Отправляем...' : 'Отправить заказ'}
         </button>

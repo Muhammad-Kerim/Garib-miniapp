@@ -35,7 +35,7 @@ app.post('/order', async (req, res) => {
       .map(i => `• ${i.name} ${i.volume}мл — ${i.qty} шт. × ${i.price.toLocaleString('ru')} ₽ = ${(i.qty * i.price).toLocaleString('ru')} ₽`)
       .join('\n')
 
-    const { tgUser } = req.body
+    const { tgUser, delivery } = req.body
     const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
     const tgLink = tgUser
       ? tgUser.username
@@ -47,7 +47,7 @@ app.post('/order', async (req, res) => {
 
 👤 Имя: ${esc(name)}
 📞 Телефон: ${esc(phone)}
-📍 Адрес: ${esc(address)}${comment ? `\n💬 Комментарий: ${esc(comment)}` : ''}
+${delivery ? `🚚 Доставка: ${esc(delivery)}\n` : ''}📍 Адрес: ${esc(address)}${comment ? `\n💬 Комментарий: ${esc(comment)}` : ''}
 ✈️ Telegram: ${tgLink}
 
 📦 Состав заказа:

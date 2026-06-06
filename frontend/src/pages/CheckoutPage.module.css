@@ -25,6 +25,32 @@
   gap: 16px;
 }
 
+.deliveryOptions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.deliveryBtn {
+  flex: 1;
+  min-width: 80px;
+  padding: 11px 8px;
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  border: 1.5px solid var(--color-border);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-muted);
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.deliveryActive {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
 .section {
   background: var(--bg-card);
   border-radius: var(--radius);

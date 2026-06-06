@@ -16,6 +16,14 @@
   padding: 4px;
 }
 
+.shareBtn {
+  background: none;
+  color: var(--color-primary);
+  padding: 4px;
+  display: flex;
+  align-items: center;
+}
+
 .headerTitle {
   font-family: var(--font-heading);
   font-size: 18px;

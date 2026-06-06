@@ -33,6 +33,30 @@
   object-fit: cover;
 }
 
+.favBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.88);
+  color: var(--color-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s, color 0.15s;
+  backdrop-filter: blur(4px);
+}
+
+.favBtn:active {
+  transform: scale(1.2);
+}
+
+.favActive {
+  color: var(--color-accent);
+}
+
 .volume {
   position: absolute;
   bottom: 8px;
