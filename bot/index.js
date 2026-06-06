@@ -17,7 +17,7 @@ let orderCounter = 1
 
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id
-  bot.sendMessage(chatId, '👋 Добро пожаловать в garib — парфюмерный магазин!\n\nОткройте каталог и выберите ароматы:', {
+  bot.sendMessage(chatId, 'Добро пожаловать в Solano Parfume! 🌿\n\nЗдесь вы можете выбрать тот аромат, который вам будет по душе.\n\nОткройте наш каталог, мы с радостью оформим ваши заказы:', {
     reply_markup: {
       inline_keyboard: [[{
         text: '🛍 Открыть каталог',
