@@ -29,7 +29,8 @@ bot.onText(/\/start/, (msg) => {
 
 app.post('/order', async (req, res) => {
   try {
-    const { name, phone, address, comment, items, total } = req.body
+    const { name, phone, address, comment, items, total, tgUser, delivery } = req.body
+    const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
 
     const itemsText = items
       .map(i => {
@@ -39,9 +40,6 @@ app.post('/order', async (req, res) => {
         return `• ${link} ${i.volume}мл — ${i.qty} шт. × ${i.price.toLocaleString('ru')} ₽ = ${(i.qty * i.price).toLocaleString('ru')} ₽`
       })
       .join('\n')
-
-    const { tgUser, delivery } = req.body
-    const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
     const tgLink = tgUser
       ? tgUser.username
         ? `@${esc(tgUser.username)}`

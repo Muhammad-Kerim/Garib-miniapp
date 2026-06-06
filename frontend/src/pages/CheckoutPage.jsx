@@ -5,7 +5,11 @@ import { useHistoryStore } from '../store/historyStore'
 import styles from './CheckoutPage.module.css'
 
 const BOT_URL = 'https://garib-miniapp-production.up.railway.app/order'
-const DELIVERY_OPTIONS = ['СДЭК', 'Почта России', 'Озон']
+const DELIVERY_OPTIONS = [
+  { id: 'СДЭК', label: 'СДЭК', icon: '📦' },
+  { id: 'Почта России', label: 'Почта России', icon: '✉️' },
+  { id: 'Озон', label: 'Озон', icon: '🟠' },
+]
 
 export default function CheckoutPage() {
   const navigate = useNavigate()
@@ -160,12 +164,14 @@ export default function CheckoutPage() {
           <div className={styles.deliveryOptions}>
             {DELIVERY_OPTIONS.map(opt => (
               <button
-                key={opt}
+                key={opt.id}
                 type="button"
-                className={`${styles.deliveryBtn} ${delivery === opt ? styles.deliveryActive : ''}`}
-                onClick={() => setDelivery(opt)}
+                className={`${styles.deliveryBtn} ${delivery === opt.id ? styles.deliveryActive : ''}`}
+                onClick={() => setDelivery(opt.id)}
               >
-                {opt}
+                <span className={styles.deliveryIcon}>{opt.icon}</span>
+                <span className={styles.deliveryLabel}>{opt.label}</span>
+                <span className={styles.deliveryRadio} />
               </button>
             ))}
           </div>

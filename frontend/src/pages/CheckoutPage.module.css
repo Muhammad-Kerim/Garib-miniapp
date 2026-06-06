@@ -27,28 +27,62 @@
 
 .deliveryOptions {
   display: flex;
+  flex-direction: column;
   gap: 8px;
-  flex-wrap: wrap;
 }
 
 .deliveryBtn {
-  flex: 1;
-  min-width: 80px;
-  padding: 11px 8px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
   border-radius: var(--radius-sm);
   background: var(--bg);
   border: 1.5px solid var(--color-border);
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--color-muted);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-primary);
   transition: all 0.15s;
-  white-space: nowrap;
+  text-align: left;
+}
+
+.deliveryIcon {
+  font-size: 20px;
+  flex-shrink: 0;
+  width: 28px;
+  text-align: center;
+}
+
+.deliveryLabel {
+  flex: 1;
+}
+
+.deliveryRadio {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--color-border);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
 }
 
 .deliveryActive {
-  background: var(--color-primary);
-  border-color: var(--color-primary);
-  color: #fff;
+  background: rgba(123, 45, 45, 0.05);
+  border-color: var(--color-accent);
+}
+
+.deliveryActive .deliveryRadio {
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+}
+
+.deliveryActive .deliveryLabel {
+  color: var(--color-accent);
+  font-weight: 600;
 }
 
 .section {
