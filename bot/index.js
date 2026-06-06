@@ -36,25 +36,26 @@ app.post('/order', async (req, res) => {
       .join('\n')
 
     const { tgUser } = req.body
+    const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
     const tgLink = tgUser
       ? tgUser.username
-        ? `@${tgUser.username}`
-        : `[${tgUser.firstName}](tg://user?id=${tgUser.id})`
+        ? `@${esc(tgUser.username)}`
+        : `<a href="tg://user?id=${tgUser.id}">${esc(tgUser.firstName)}</a>`
       : 'неизвестен'
 
     const message = `🛍 Новый заказ #${orderCounter++}
 
-👤 Имя: ${name}
-📞 Телефон: ${phone}
-📍 Адрес: ${address}${comment ? `\n💬 Комментарий: ${comment}` : ''}
+👤 Имя: ${esc(name)}
+📞 Телефон: ${esc(phone)}
+📍 Адрес: ${esc(address)}${comment ? `\n💬 Комментарий: ${esc(comment)}` : ''}
 ✈️ Telegram: ${tgLink}
 
 📦 Состав заказа:
-${itemsText}
+${esc(itemsText)}
 
 💰 Итого: ${total.toLocaleString('ru')} ₽`
 
-    await bot.sendMessage(MANAGER_CHAT_ID, message, { parse_mode: 'Markdown' })
+    await bot.sendMessage(MANAGER_CHAT_ID, message, { parse_mode: 'HTML' })
     res.json({ ok: true })
   } catch (err) {
     console.error(err)
