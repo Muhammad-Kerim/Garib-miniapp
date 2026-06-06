@@ -5,8 +5,6 @@ import FragranceComparison from '../components/FragranceComparison'
 import NotesPyramid from '../components/NotesPyramid'
 import styles from './ProductPage.module.css'
 
-const BOT_USERNAME = 'GaribPerfumeBot'
-
 export default function ProductPage() {
   const { id } = useParams()
   const navigate = useNavigate()
@@ -22,16 +20,6 @@ export default function ProductPage() {
 
   const inCart = items.some(i => i.id === product.id)
 
-  const handleShare = () => {
-    const text = `${product.name} — аналог ${product.originalBrand} ${product.originalName} за 2 500 ₽`
-    const botUrl = `https://t.me/${BOT_USERNAME}`
-    if (navigator.share) {
-      navigator.share({ title: product.name, text, url: botUrl })
-    } else {
-      navigator.clipboard?.writeText(`${text}\n${botUrl}`)
-    }
-  }
-
   return (
     <div className="page">
       <header className={styles.header}>
@@ -41,13 +29,7 @@ export default function ProductPage() {
           </svg>
         </button>
         <span className={styles.headerTitle}>{product.name}</span>
-        <button className={styles.shareBtn} onClick={handleShare} aria-label="Поделиться">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
-            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
-            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-          </svg>
-        </button>
+        <div style={{ width: 28 }} />
       </header>
 
       <div className={styles.imgWrap}>
