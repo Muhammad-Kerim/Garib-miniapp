@@ -7,7 +7,7 @@ import CategoryFilter from '../components/CategoryFilter'
 import CartIcon from '../components/CartIcon'
 import styles from './CatalogPage.module.css'
 
-const CHANNEL_URL = 'https://t.me/garib_parfume'
+const CHANNEL_URL = 'https://t.me/dukhi_parfumeria'
 
 export default function CatalogPage() {
   const [search, setSearch] = useState('')
