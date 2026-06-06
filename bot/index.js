@@ -35,18 +35,26 @@ app.post('/order', async (req, res) => {
       .map(i => `• ${i.name} ${i.volume}мл — ${i.qty} шт. × ${i.price.toLocaleString('ru')} ₽ = ${(i.qty * i.price).toLocaleString('ru')} ₽`)
       .join('\n')
 
+    const { tgUser } = req.body
+    const tgLink = tgUser
+      ? tgUser.username
+        ? `@${tgUser.username}`
+        : `[${tgUser.firstName}](tg://user?id=${tgUser.id})`
+      : 'неизвестен'
+
     const message = `🛍 Новый заказ #${orderCounter++}
 
 👤 Имя: ${name}
 📞 Телефон: ${phone}
 📍 Адрес: ${address}${comment ? `\n💬 Комментарий: ${comment}` : ''}
+✈️ Telegram: ${tgLink}
 
 📦 Состав заказа:
 ${itemsText}
 
 💰 Итого: ${total.toLocaleString('ru')} ₽`
 
-    await bot.sendMessage(MANAGER_CHAT_ID, message)
+    await bot.sendMessage(MANAGER_CHAT_ID, message, { parse_mode: 'Markdown' })
     res.json({ ok: true })
   } catch (err) {
     console.error(err)

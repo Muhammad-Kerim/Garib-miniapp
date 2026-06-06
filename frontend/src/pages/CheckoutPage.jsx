@@ -22,8 +22,15 @@ export default function CheckoutPage() {
 
     setLoading(true)
     try {
+      const tgUser = window.Telegram?.WebApp?.initDataUnsafe?.user
       const orderData = {
         ...form,
+        tgUser: tgUser ? {
+          id: tgUser.id,
+          username: tgUser.username,
+          firstName: tgUser.first_name,
+          lastName: tgUser.last_name,
+        } : null,
         items: items.map(i => ({
           name: i.name,
           volume: i.volume,
