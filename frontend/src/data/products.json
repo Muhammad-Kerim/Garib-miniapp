@@ -1480,26 +1480,6 @@
     "description": "Непобедимый — мощный и победоносный мужской аромат."
   },
   {
-    "id": 75,
-    "catalogNumber": "75",
-    "name": "Cmilka",
-    "originalBrand": "Vilhelm Parfumerie",
-    "originalName": "Chimilka",
-    "category": "унисекс",
-    "price": 2500,
-    "volume": 50,
-    "image": "/images/75-cmilka.webp",
-    "comparison": {
-      "originalDesc": "Нишевый свежий аромат с нотами мяты и базилика.",
-      "solanoDesc": "Тот же узнаваемый аромат за доступную цену",
-      "originalPrice": 22000,
-      "durabilityOriginal": "до 8 часов",
-      "durabilityS": "до 8 часов"
-    },
-    "notes": { "top": ["Мята", "Базилик", "Лимон"], "heart": ["Жасмин", "Зеленые ноты"], "base": ["Мускус", "Кедр"] },
-    "description": "Травяная свежесть с характером — живой и натуральный аромат."
-  },
-  {
     "id": 76,
     "catalogNumber": "76",
     "name": "Avendator",
