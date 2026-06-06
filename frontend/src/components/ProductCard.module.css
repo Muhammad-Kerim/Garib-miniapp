@@ -20,7 +20,7 @@
 
 .imgWrap {
   position: relative;
-  padding-top: 100%;
+  padding-top: 130%;
   background: var(--bg);
   overflow: hidden;
 }
@@ -50,20 +50,20 @@
 }
 
 .original {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--color-muted);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 4px;
+  letter-spacing: 0.6px;
+  margin-bottom: 5px;
 }
 
 .name {
   font-family: var(--font-heading);
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   color: var(--color-primary);
   margin-bottom: 10px;
-  line-height: 1.3;
+  line-height: 1.25;
 }
 
 .footer {

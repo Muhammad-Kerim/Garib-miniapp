@@ -54,10 +54,28 @@ export default function CheckoutPage() {
 
   if (sent) return (
     <div className={styles.success}>
-      <div className={styles.successIcon}>✓</div>
-      <h2>Заказ принят!</h2>
-      <p>Мы свяжемся с вами в ближайшее время для подтверждения заказа.</p>
-      <button className="btn-primary" style={{ maxWidth: 280 }} onClick={() => navigate('/')}>
+      <div className={styles.successCircle}>
+        <svg width="72" height="72" viewBox="0 0 72 72" fill="none">
+          <circle
+            cx="36" cy="36" r="34"
+            stroke="#22C55E" strokeWidth="3"
+            strokeDasharray="213.6"
+            strokeDashoffset="213.6"
+            className={styles.successRing}
+          />
+          <path
+            d="M22 36l10 10 18-18"
+            stroke="#22C55E" strokeWidth="3.5"
+            strokeLinecap="round" strokeLinejoin="round"
+            strokeDasharray="40"
+            strokeDashoffset="40"
+            className={styles.successCheck}
+          />
+        </svg>
+      </div>
+      <h2 className={styles.successTitle}>Заказ принят!</h2>
+      <p className={styles.successText}>Менеджер свяжется с вами в Telegram в течение часа для подтверждения и оплаты.</p>
+      <button className="btn-primary" style={{ maxWidth: 300 }} onClick={() => navigate('/')}>
         Вернуться в каталог
       </button>
     </div>

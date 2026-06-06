@@ -6,12 +6,12 @@
   --color-muted: #6B6B6B;
   --color-border: #E8E0D5;
   --color-badge: #1A1A1A;
-  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-heading: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
   --font-body: 'Inter', system-ui, sans-serif;
-  --radius: 12px;
-  --radius-sm: 8px;
-  --shadow: 0 2px 12px rgba(0,0,0,0.07);
-  --shadow-lg: 0 4px 24px rgba(0,0,0,0.11);
+  --radius: 14px;
+  --radius-sm: 9px;
+  --shadow: 0 2px 14px rgba(0,0,0,0.07);
+  --shadow-lg: 0 6px 28px rgba(0,0,0,0.12);
 }
 
 * {
@@ -28,6 +28,8 @@ html, body, #root {
 
 body {
   font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
   background-color: var(--bg);
   color: var(--color-primary);
   -webkit-font-smoothing: antialiased;

@@ -18,7 +18,7 @@
 
 .headerTitle {
   font-family: var(--font-heading);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   flex: 1;
   text-align: center;
@@ -31,7 +31,7 @@
 .imgWrap {
   position: relative;
   width: 100%;
-  padding-top: 90%;
+  padding-top: 115%;
   background: var(--bg);
   overflow: hidden;
 }
@@ -47,19 +47,20 @@
 
 .catBadge {
   position: absolute;
-  top: 14px;
-  right: 14px;
-  background: rgba(255,255,255,0.92);
-  color: var(--color-primary);
-  font-size: 12px;
+  bottom: 14px;
+  left: 14px;
+  background: rgba(26,26,26,0.82);
+  color: #fff;
+  font-size: 11px;
   font-weight: 600;
-  padding: 4px 12px;
+  padding: 4px 14px;
   border-radius: 100px;
   text-transform: capitalize;
+  letter-spacing: 0.5px;
 }
 
 .content {
-  padding: 16px;
+  padding: 18px 16px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -71,18 +72,20 @@
 
 .originalBrand {
   font-size: 12px;
-  color: var(--color-muted);
+  color: var(--color-accent);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+  font-weight: 600;
   margin-bottom: 6px;
 }
 
 .name {
   font-family: var(--font-heading);
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 700;
   color: var(--color-primary);
-  margin-bottom: 4px;
+  margin-bottom: 5px;
+  line-height: 1.15;
 }
 
 .catalogNo {
@@ -93,20 +96,20 @@
 .descBlock {
   background: var(--bg-card);
   border-radius: var(--radius);
-  padding: 16px;
+  padding: 18px;
   box-shadow: var(--shadow);
 }
 
 .desc {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 15px;
+  line-height: 1.65;
   color: var(--color-muted);
 }
 
 .buyBlock {
   background: var(--bg-card);
   border-radius: var(--radius);
-  padding: 16px;
+  padding: 18px;
   box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
@@ -121,7 +124,7 @@
 
 .price {
   font-family: var(--font-heading);
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
   color: var(--color-primary);
 }

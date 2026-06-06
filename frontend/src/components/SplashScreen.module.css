@@ -1,0 +1,47 @@
+.screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #F5F0EA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.screen.hide {
+  animation: slideUp 0.45s ease forwards;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  width: 160px;
+  height: auto;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.1));
+}
+
+.tagline {
+  font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: #7B2D2D;
+  opacity: 0;
+  animation: fadeIn 0.6s ease 0.4s forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 1; transform: translateY(0); }
+  to   { opacity: 0; transform: translateY(-30px); }
+}
