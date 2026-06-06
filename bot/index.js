@@ -32,7 +32,12 @@ app.post('/order', async (req, res) => {
     const { name, phone, address, comment, items, total } = req.body
 
     const itemsText = items
-      .map(i => `• ${i.name} ${i.volume}мл — ${i.qty} шт. × ${i.price.toLocaleString('ru')} ₽ = ${(i.qty * i.price).toLocaleString('ru')} ₽`)
+      .map(i => {
+        const link = i.id
+          ? `<a href="${MINI_APP_URL}/product/${i.id}">${esc(i.name)}</a>`
+          : esc(i.name)
+        return `• ${link} ${i.volume}мл — ${i.qty} шт. × ${i.price.toLocaleString('ru')} ₽ = ${(i.qty * i.price).toLocaleString('ru')} ₽`
+      })
       .join('\n')
 
     const { tgUser, delivery } = req.body
@@ -51,7 +56,7 @@ ${delivery ? `🚚 Доставка: ${esc(delivery)}\n` : ''}📍 Адрес: $
 ✈️ Telegram: ${tgLink}
 
 📦 Состав заказа:
-${esc(itemsText)}
+${itemsText}
 
 💰 Итого: ${total.toLocaleString('ru')} ₽`
 

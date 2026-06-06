@@ -74,20 +74,21 @@
 }
 
 .original {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--color-muted);
   text-transform: uppercase;
-  letter-spacing: 0.6px;
+  letter-spacing: 1px;
   margin-bottom: 5px;
 }
 
 .name {
   font-family: var(--font-heading);
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
+  font-style: italic;
   color: var(--color-primary);
   margin-bottom: 10px;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 .footer {

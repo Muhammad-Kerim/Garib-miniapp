@@ -39,6 +39,7 @@ export default function CheckoutPage() {
           lastName: tgUser.last_name,
         } : null,
         items: items.map(i => ({
+          id: i.id,
           name: i.name,
           volume: i.volume,
           qty: i.qty,

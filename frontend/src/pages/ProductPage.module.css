@@ -79,21 +79,22 @@
 }
 
 .originalBrand {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--color-accent);
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   font-weight: 600;
   margin-bottom: 6px;
 }
 
 .name {
   font-family: var(--font-heading);
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 700;
+  font-style: italic;
   color: var(--color-primary);
   margin-bottom: 5px;
-  line-height: 1.15;
+  line-height: 1.1;
 }
 
 .catalogNo {
