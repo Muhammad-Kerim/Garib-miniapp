@@ -25,11 +25,10 @@ export default function ProductPage() {
   const handleShare = () => {
     const text = `${product.name} — аналог ${product.originalBrand} ${product.originalName} за 2 500 ₽`
     const botUrl = `https://t.me/${BOT_USERNAME}`
-    const shareUrl = `https://t.me/share/url?url=${encodeURIComponent(botUrl)}&text=${encodeURIComponent(text)}`
-    if (window.Telegram?.WebApp?.openLink) {
-      window.Telegram.WebApp.openLink(shareUrl)
+    if (navigator.share) {
+      navigator.share({ title: product.name, text, url: botUrl })
     } else {
-      window.open(shareUrl, '_blank')
+      navigator.clipboard?.writeText(`${text}\n${botUrl}`)
     }
   }
 
