@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { useCartStore } from '../store/cartStore'
 import { useFavoritesStore } from '../store/favoritesStore'
@@ -8,6 +9,16 @@ export default function BottomNav() {
   const navigate = useNavigate()
   const cartCount = useCartStore(s => s.items.reduce((sum, i) => sum + i.qty, 0))
   const favCount = useFavoritesStore(s => s.favorites.length)
+  const [cartBounce, setCartBounce] = useState(false)
+  const prevCount = useRef(cartCount)
+
+  useEffect(() => {
+    if (cartCount > prevCount.current) {
+      setCartBounce(true)
+      setTimeout(() => setCartBounce(false), 400)
+    }
+    prevCount.current = cartCount
+  }, [cartCount])
 
   if (location.pathname === '/checkout') return null
 
@@ -46,6 +57,7 @@ export default function BottomNav() {
       path: '/cart',
       label: 'Корзина',
       badge: cartCount,
+      bounce: cartBounce,
       icon: (active) => (
         <svg width="22" height="22" viewBox="0 0 24 24" fill={active ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
@@ -63,7 +75,7 @@ export default function BottomNav() {
         return (
           <button
             key={tab.path}
-            className={`${styles.tab} ${active ? styles.active : ''}`}
+            className={`${styles.tab} ${active ? styles.active : ''} ${tab.bounce ? styles.bounce : ''}`}
             onClick={() => navigate(tab.path)}
           >
             <span className={styles.iconWrap}>

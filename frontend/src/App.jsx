@@ -8,6 +8,7 @@ import FavoritesPage from './pages/FavoritesPage'
 import OrderHistoryPage from './pages/OrderHistoryPage'
 import SplashScreen from './components/SplashScreen'
 import BottomNav from './components/BottomNav'
+import Toast from './components/Toast'
 
 export default function App() {
   const [splash, setSplash] = useState(true)
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="/history" element={<OrderHistoryPage />} />
       </Routes>
       <BottomNav />
+      <Toast />
     </>
   )
 }

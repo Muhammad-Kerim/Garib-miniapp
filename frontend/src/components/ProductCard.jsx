@@ -1,18 +1,22 @@
 import { useNavigate } from 'react-router-dom'
 import { useCartStore } from '../store/cartStore'
 import { useFavoritesStore } from '../store/favoritesStore'
+import { useToastStore } from '../store/toastStore'
 import styles from './ProductCard.module.css'
 
 export default function ProductCard({ product }) {
   const navigate = useNavigate()
   const { items, addItem } = useCartStore()
   const { toggleFavorite, isFavorite } = useFavoritesStore()
-  const inCart = items.some(i => i.id === product.id)
+  const showToast = useToastStore(s => s.show)
+  const cartItem = items.find(i => i.id === product.id)
+  const inCart = !!cartItem
   const fav = isFavorite(product.id)
 
   const handleAdd = (e) => {
     e.stopPropagation()
     addItem(product)
+    showToast(`${product.name} добавлен в корзину`)
   }
 
   const handleFav = (e) => {
@@ -49,7 +53,7 @@ export default function ProductCard({ product }) {
             className={`${styles.addBtn} ${inCart ? styles.added : ''}`}
             onClick={handleAdd}
           >
-            {inCart ? '✓' : '+'}
+            {inCart ? `✓ ${cartItem.qty}` : '+'}
           </button>
         </div>
       </div>

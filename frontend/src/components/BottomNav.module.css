@@ -56,3 +56,14 @@
   font-weight: 500;
   letter-spacing: 0.2px;
 }
+
+.bounce {
+  animation: cartBounce 0.4s ease;
+}
+
+@keyframes cartBounce {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.3); }
+  70%  { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
