@@ -75,10 +75,10 @@ export default function BottomNav() {
         return (
           <button
             key={tab.path}
-            className={`${styles.tab} ${active ? styles.active : ''} ${tab.bounce ? styles.bounce : ''}`}
+            className={`${styles.tab} ${active ? styles.active : ''}`}
             onClick={() => navigate(tab.path)}
           >
-            <span className={styles.iconWrap}>
+            <span className={`${styles.iconWrap} ${tab.bounce ? styles.bounce : ''}`}>
               {tab.icon(active)}
               {tab.badge > 0 && <span className={styles.badge}>{tab.badge}</span>}
             </span>
