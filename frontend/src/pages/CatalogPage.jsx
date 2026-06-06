@@ -29,7 +29,7 @@ export default function CatalogPage() {
   return (
     <div className="page">
       <header className={styles.header}>
-        <img src="/logo.svg" alt="garib" className={styles.logo} />
+        <img src="/logo.png" alt="garib" className={styles.logo} />
         <CartIcon />
       </header>
 

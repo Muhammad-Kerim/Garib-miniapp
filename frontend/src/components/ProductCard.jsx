@@ -24,7 +24,7 @@ export default function ProductCard({ product }) {
         <span className={styles.volume}>{product.volume} мл</span>
       </div>
       <div className={styles.body}>
-        <p className={styles.original}>{product.originalBrand}</p>
+        <p className={styles.original}>{product.originalBrand} · {product.originalName}</p>
         <h3 className={styles.name}>{product.name}</h3>
         <div className={styles.footer}>
           <span className={styles.price}>{product.price.toLocaleString('ru')} ₽</span>
