@@ -17,7 +17,7 @@ let orderCounter = 1
 
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id
-  bot.sendMessage(chatId, 'Добро пожаловать в GARIB PERFUME 🌿\n\n20 лет в мире ароматов. Более 1000 позиций — от мировых люксовых брендов до редкой арабской парфюмерии.\n\nНаш бренд SOLANO — ароматы 1:1 с Chanel, Dior, Tom Ford, Creed и другими. Стойкость 10–12 часов, высочайшее качество.\n\nОткройте каталог и найдите свой аромат 👇', {
+  bot.sendMessage(chatId, 'Добро пожаловать в GARIB PERFUME 🌿\n\n20 лет в мире ароматов. Более 1000 позиций — от мировых люксовых брендов до редкой арабской парфюмерии.\n\nНаш бренд SOLANO — ароматы 1:1 с Chanel, Dior, Tom Ford, Creed и другими. Стойкость 10–12 часов, высочайшее качество.\n\n💬 Менеджер: @garibperfume\n⭐️ Отзывы наших клиентов: https://t.me/+vUCx-VCTGF5mNTUy\n\nОткройте каталог и найдите свой аромат 👇', {
     reply_markup: {
       inline_keyboard: [[{
         text: '🛍 Открыть каталог',
