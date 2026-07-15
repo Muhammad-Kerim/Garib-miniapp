@@ -173,6 +173,13 @@
   font-weight: 700;
 }
 
+.error {
+  font-size: 13px;
+  color: #DC2626;
+  text-align: center;
+  line-height: 1.5;
+}
+
 .success {
   min-height: 100vh;
   display: flex;

@@ -4,11 +4,10 @@ import { useCartStore } from '../store/cartStore'
 import { useHistoryStore } from '../store/historyStore'
 import styles from './CheckoutPage.module.css'
 
-const BOT_URL = 'https://garib-miniapp-production.up.railway.app/order'
+const BOT_URL = '/api/order'
 const DELIVERY_OPTIONS = [
   { id: 'СДЭК', label: 'СДЭК', icon: '📦' },
   { id: 'Почта России', label: 'Почта России', icon: '✉️' },
-  { id: 'Озон', label: 'Озон', icon: '🟠' },
 ]
 
 export default function CheckoutPage() {
@@ -21,6 +20,7 @@ export default function CheckoutPage() {
   const [delivery, setDelivery] = useState('')
   const [sent, setSent] = useState(false)
   const [loading, setLoading] = useState(false)
+  const [error, setError] = useState('')
 
   const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value })
 
@@ -31,6 +31,7 @@ export default function CheckoutPage() {
     if (!canSubmit) return
 
     setLoading(true)
+    setError('')
     try {
       const tgUser = window.Telegram?.WebApp?.initDataUnsafe?.user
       const orderData = {
@@ -52,17 +53,20 @@ export default function CheckoutPage() {
         total,
       }
 
-      await fetch(BOT_URL, {
+      const response = await fetch(BOT_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(orderData),
       })
+      if (!response.ok) throw new Error(`Order request failed: ${response.status}`)
 
       addOrder({ ...form, delivery, items: orderData.items, total })
-    } catch {}
-
-    clearCart()
-    setSent(true)
+      clearCart()
+      setSent(true)
+    } catch (err) {
+      console.error(err)
+      setError('Не удалось отправить заказ. Попробуйте ещё раз или напишите менеджеру @garibperfume.')
+    }
     setLoading(false)
   }
 
@@ -192,6 +196,8 @@ export default function CheckoutPage() {
             </div>
           </div>
         </div>
+
+        {error && <p className={styles.error}>{error}</p>}
 
         <button
           type="submit"
