@@ -69,6 +69,24 @@
   color: var(--color-primary);
 }
 
+.soldOutBadge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: rgba(38, 34, 28, 0.85);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 100px;
+}
+
+.addBtnDisabled {
+  background: var(--color-border);
+  color: var(--color-muted);
+  cursor: default;
+}
+
 .body {
   padding: 12px;
 }

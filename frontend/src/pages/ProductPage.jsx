@@ -19,6 +19,7 @@ export default function ProductPage() {
   )
 
   const inCart = items.some(i => i.id === product.id)
+  const soldOut = product.inStock === false
 
   return (
     <div className="page">
@@ -62,12 +63,18 @@ export default function ProductPage() {
             <span className={styles.price}>{product.price.toLocaleString('ru')} ₽</span>
             <span className={styles.volume}>{product.volume} мл</span>
           </div>
-          <button
-            className={`btn-primary ${inCart ? styles.addedBtn : ''}`}
-            onClick={() => { addItem(product); navigate('/cart') }}
-          >
-            {inCart ? '✓ В корзине — перейти' : 'В корзину'}
-          </button>
+          {soldOut ? (
+            <button className={`btn-primary ${styles.soldOutBtn}`} disabled>
+              Нет в наличии — скоро вернётся
+            </button>
+          ) : (
+            <button
+              className={`btn-primary ${inCart ? styles.addedBtn : ''}`}
+              onClick={() => { addItem(product); navigate('/cart') }}
+            >
+              {inCart ? '✓ В корзине — перейти' : 'В корзину'}
+            </button>
+          )}
         </div>
       </div>
     </div>

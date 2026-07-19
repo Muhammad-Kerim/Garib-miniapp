@@ -156,3 +156,10 @@
   gap: 16px;
   color: var(--color-muted);
 }
+
+.soldOutBtn {
+  background: var(--color-border);
+  color: var(--color-muted);
+  cursor: default;
+  opacity: 1;
+}

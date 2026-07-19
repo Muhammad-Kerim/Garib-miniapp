@@ -12,9 +12,14 @@ export default function ProductCard({ product }) {
   const cartItem = items.find(i => i.id === product.id)
   const inCart = !!cartItem
   const fav = isFavorite(product.id)
+  const soldOut = product.inStock === false
 
   const handleAdd = (e) => {
     e.stopPropagation()
+    if (soldOut) {
+      showToast(`${product.name} временно закончился`)
+      return
+    }
     addItem(product)
     showToast(`${product.name} добавлен в корзину`)
   }
@@ -43,6 +48,7 @@ export default function ProductCard({ product }) {
           </svg>
         </button>
         <span className={styles.volume}>{product.volume} мл</span>
+        {soldOut && <span className={styles.soldOutBadge}>Нет в наличии</span>}
       </div>
       <div className={styles.body}>
         <p className={styles.original}>{product.originalBrand} · {product.originalName}</p>
@@ -50,10 +56,12 @@ export default function ProductCard({ product }) {
         <div className={styles.footer}>
           <span className={styles.price}>{product.price.toLocaleString('ru')} ₽</span>
           <button
-            className={`${styles.addBtn} ${inCart ? styles.added : ''}`}
+            className={`${styles.addBtn} ${inCart ? styles.added : ''} ${soldOut ? styles.addBtnDisabled : ''}`}
             onClick={handleAdd}
+            disabled={soldOut}
+            aria-label={soldOut ? 'Нет в наличии' : 'В корзину'}
           >
-            {inCart ? `✓ ${cartItem.qty}` : '+'}
+            {soldOut ? '—' : inCart ? `✓ ${cartItem.qty}` : '+'}
           </button>
         </div>
       </div>
