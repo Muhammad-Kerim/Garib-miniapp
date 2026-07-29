@@ -20,6 +20,7 @@ export default function ProductPage() {
 
   const inCart = items.some(i => i.id === product.id)
   const soldOut = product.inStock === false
+  const noPrice = product.price == null
 
   return (
     <div className="page">
@@ -45,12 +46,14 @@ export default function ProductPage() {
 
       <div className={styles.content}>
         <div className={styles.titleBlock}>
-          <p className={styles.originalBrand}>{product.originalBrand} · {product.originalName}</p>
+          <p className={styles.originalBrand}>
+            {product.originalBrand ? `${product.originalBrand} · ${product.originalName}` : product.subBrand}
+          </p>
           <h1 className={styles.name}>{product.name}</h1>
           <p className={styles.catalogNo}>№{product.catalogNumber} · {product.volume} мл</p>
         </div>
 
-        <FragranceComparison product={product} />
+        {product.comparison && <FragranceComparison product={product} />}
 
         <NotesPyramid notes={product.notes} />
 
@@ -59,21 +62,41 @@ export default function ProductPage() {
         </div>
 
         <div className={styles.buyBlock}>
-          <div className={styles.priceRow}>
-            <span className={styles.price}>{product.price.toLocaleString('ru')} ₽</span>
-            <span className={styles.volume}>{product.volume} мл</span>
-          </div>
-          {soldOut ? (
-            <button className={`btn-primary ${styles.soldOutBtn}`} disabled>
-              Нет в наличии — скоро вернётся
-            </button>
+          {noPrice ? (
+            <>
+              <div className={styles.priceRow}>
+                <span className={styles.priceOnRequest}>Цена по запросу</span>
+                <span className={styles.volume}>{product.volume} мл</span>
+              </div>
+              <a
+                className="btn-primary"
+                href="https://t.me/garibperfume"
+                target="_blank"
+                rel="noreferrer"
+                style={{ textDecoration: 'none', textAlign: 'center' }}
+              >
+                Узнать цену у менеджера
+              </a>
+            </>
           ) : (
-            <button
-              className={`btn-primary ${inCart ? styles.addedBtn : ''}`}
-              onClick={() => { addItem(product); navigate('/cart') }}
-            >
-              {inCart ? '✓ В корзине — перейти' : 'В корзину'}
-            </button>
+            <>
+              <div className={styles.priceRow}>
+                <span className={styles.price}>{product.price.toLocaleString('ru')} ₽</span>
+                <span className={styles.volume}>{product.volume} мл</span>
+              </div>
+              {soldOut ? (
+                <button className={`btn-primary ${styles.soldOutBtn}`} disabled>
+                  Нет в наличии — скоро вернётся
+                </button>
+              ) : (
+                <button
+                  className={`btn-primary ${inCart ? styles.addedBtn : ''}`}
+                  onClick={() => { addItem(product); navigate('/cart') }}
+                >
+                  {inCart ? '✓ В корзине — перейти' : 'В корзину'}
+                </button>
+              )}
+            </>
           )}
         </div>
       </div>

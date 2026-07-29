@@ -81,6 +81,12 @@
   border-radius: 100px;
 }
 
+.priceOnRequest {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--color-muted);
+}
+
 .addBtnDisabled {
   background: var(--color-border);
   color: var(--color-muted);

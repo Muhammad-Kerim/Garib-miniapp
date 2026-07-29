@@ -13,6 +13,7 @@ export default function ProductCard({ product }) {
   const inCart = !!cartItem
   const fav = isFavorite(product.id)
   const soldOut = product.inStock === false
+  const noPrice = product.price == null
 
   const handleAdd = (e) => {
     e.stopPropagation()
@@ -51,18 +52,26 @@ export default function ProductCard({ product }) {
         {soldOut && <span className={styles.soldOutBadge}>Нет в наличии</span>}
       </div>
       <div className={styles.body}>
-        <p className={styles.original}>{product.originalBrand} · {product.originalName}</p>
+        <p className={styles.original}>
+          {product.originalBrand ? `${product.originalBrand} · ${product.originalName}` : product.subBrand}
+        </p>
         <h3 className={styles.name}>{product.name}</h3>
         <div className={styles.footer}>
-          <span className={styles.price}>{product.price.toLocaleString('ru')} ₽</span>
-          <button
-            className={`${styles.addBtn} ${inCart ? styles.added : ''} ${soldOut ? styles.addBtnDisabled : ''}`}
-            onClick={handleAdd}
-            disabled={soldOut}
-            aria-label={soldOut ? 'Нет в наличии' : 'В корзину'}
-          >
-            {soldOut ? '—' : inCart ? `✓ ${cartItem.qty}` : '+'}
-          </button>
+          {noPrice ? (
+            <span className={styles.priceOnRequest}>Цена по запросу</span>
+          ) : (
+            <>
+              <span className={styles.price}>{product.price.toLocaleString('ru')} ₽</span>
+              <button
+                className={`${styles.addBtn} ${inCart ? styles.added : ''} ${soldOut ? styles.addBtnDisabled : ''}`}
+                onClick={handleAdd}
+                disabled={soldOut}
+                aria-label={soldOut ? 'Нет в наличии' : 'В корзину'}
+              >
+                {soldOut ? '—' : inCart ? `✓ ${cartItem.qty}` : '+'}
+              </button>
+            </>
+          )}
         </div>
       </div>
     </div>

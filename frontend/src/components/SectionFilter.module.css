@@ -1,0 +1,23 @@
+.wrap {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  border: 1.5px solid var(--color-border);
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--color-muted);
+  transition: all 0.15s;
+}
+
+.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}

@@ -131,6 +131,13 @@
   gap: 10px;
 }
 
+.priceOnRequest {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-muted);
+}
+
 .price {
   font-family: var(--font-heading);
   font-size: 32px;

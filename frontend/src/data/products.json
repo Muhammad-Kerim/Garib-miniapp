@@ -2786,5 +2786,767 @@
       ]
     },
     "description": "Белый хрусталь — самый узнаваемый и копируемый аромат мира."
+  },
+  {
+    "id": 82,
+    "catalogNumber": "82",
+    "name": "Allnighter Pour Femme Shine",
+    "subBrand": "Anfar 1950",
+    "category": "женские",
+    "price": null,
+    "volume": 100,
+    "image": "/images/82-allnighter-pour-femme-shine.webp",
+    "notes": {
+      "top": [
+        "Апельсин",
+        "Мандарин"
+      ],
+      "heart": [
+        "Фрукты",
+        "Жасмин",
+        "Цветок апельсина"
+      ],
+      "base": [
+        "Пачули",
+        "Амбра",
+        "Дубовый мох",
+        "Ваниль",
+        "Карамель"
+      ]
+    },
+    "description": "Яркий фруктово-цветочный шлейф от Anfar 1950 — насыщенный, для вечера, который не хочется отпускать.",
+    "section": "arabic"
+  },
+  {
+    "id": 83,
+    "catalogNumber": "83",
+    "name": "Dubai Chocolate — Cotton Candy",
+    "subBrand": "Anfar 1950",
+    "category": "женские",
+    "price": null,
+    "volume": 60,
+    "image": "/images/83-dubai-chocolate-cotton-candy.webp",
+    "notes": {
+      "top": [
+        "Фрезия",
+        "Маршмеллоу",
+        "Клубника",
+        "Мускус"
+      ],
+      "heart": [
+        "Малина",
+        "Взбитые сливки",
+        "Сахарная вата"
+      ],
+      "base": [
+        "Сахар",
+        "Ваниль",
+        "Мускус",
+        "Амброксан"
+      ]
+    },
+    "description": "Гурманский аромат из линии Dubai Chocolate — сладкий, лёгкий, как облако сахарной ваты.",
+    "section": "arabic"
+  },
+  {
+    "id": 84,
+    "catalogNumber": "84",
+    "name": "Dubai Chocolate — Pistachio Kunafa",
+    "subBrand": "Anfar 1950",
+    "category": "унисекс",
+    "price": null,
+    "volume": 50,
+    "image": "/images/84-dubai-chocolate-pistachio-kunafa.webp",
+    "notes": {
+      "top": [
+        "Фисташка",
+        "Кунафа",
+        "Орехи",
+        "Карамель"
+      ],
+      "heart": [
+        "Тонка",
+        "Кардамон",
+        "Тахини"
+      ],
+      "base": [
+        "Шоколад",
+        "Амбра",
+        "Ваниль",
+        "Пудровые ноты"
+      ]
+    },
+    "description": "Десертный аромат в честь культового ближневосточного лакомства — фисташка, кунафа и тёплая карамель.",
+    "section": "arabic"
+  },
+  {
+    "id": 85,
+    "catalogNumber": "85",
+    "name": "Dubai Chocolate — Biscotti Truffle",
+    "subBrand": "Anfar 1950",
+    "category": "унисекс",
+    "price": null,
+    "volume": 50,
+    "image": "/images/85-dubai-chocolate-biscotti-truffle.webp",
+    "description": "Гурманский аромат из линии Dubai Chocolate — уютный, десертный, в фирменном стиле бренда.",
+    "section": "arabic"
+  },
+  {
+    "id": 86,
+    "catalogNumber": "86",
+    "name": "Dubai Chocolate — Blueberry Forest",
+    "subBrand": "Anfar 1950",
+    "category": "унисекс",
+    "price": null,
+    "volume": 80,
+    "image": "/images/86-dubai-chocolate-blueberry-forest.webp",
+    "notes": {
+      "top": [
+        "Черника",
+        "Карамель",
+        "Ваниль"
+      ],
+      "heart": [
+        "Кумарин",
+        "Мёд"
+      ],
+      "base": [
+        "Белый мускус",
+        "Ирис (корень)"
+      ]
+    },
+    "description": "Ягодно-гурманская вариация линии Dubai Chocolate — черника с медовой сладостью и мягким мускусом.",
+    "section": "arabic"
+  },
+  {
+    "id": 87,
+    "catalogNumber": "87",
+    "name": "Artisan Blu",
+    "subBrand": "Anfar 1950",
+    "category": "мужские",
+    "price": null,
+    "volume": 100,
+    "image": "/images/87-artisan-blu.webp",
+    "notes": {
+      "top": [
+        "Цитрон",
+        "Калабрийский бергамот",
+        "Сицилийский апельсин"
+      ],
+      "heart": [
+        "Тунисский нероли",
+        "Нигерийский имбирь",
+        "Цейлонская корица"
+      ],
+      "base": [
+        "Китайский чёрный чай",
+        "Гваяковое дерево",
+        "Оливан",
+        "Амброксан"
+      ]
+    },
+    "description": "Пряно-цитрусовый мужской аромат с чайной душой — сдержанный и очень породистый.",
+    "section": "arabic"
+  },
+  {
+    "id": 88,
+    "catalogNumber": "88",
+    "name": "Ahtifal — Ladies Night",
+    "subBrand": "Anfar 1950",
+    "category": "женские",
+    "price": null,
+    "volume": 100,
+    "image": "/images/88-ahtifal-ladies-night.webp",
+    "notes": {
+      "top": [
+        "Груша",
+        "Фундук",
+        "Оливан"
+      ],
+      "heart": [
+        "Османтус",
+        "Роза",
+        "Шафран",
+        "Жасмин самбак"
+      ],
+      "base": [
+        "Сандал",
+        "Ваниль",
+        "Акигавуд",
+        "Амбра серая",
+        "Лабданум"
+      ]
+    },
+    "description": "Из линии Ahtifal — роскошный вечерний аромат для особого повода, цветочно-восточный, с шафраном и амброй.",
+    "section": "arabic"
+  },
+  {
+    "id": 89,
+    "catalogNumber": "89",
+    "name": "Ahtifal — Show Time",
+    "subBrand": "Anfar 1950",
+    "category": "унисекс",
+    "price": null,
+    "volume": 100,
+    "image": "/images/89-ahtifal-show-time.webp",
+    "notes": {
+      "top": [
+        "Коньяк",
+        "Ликёр",
+        "Малина",
+        "Имбирь"
+      ],
+      "heart": [
+        "Тонка боб",
+        "Болгарская роза",
+        "Карамель",
+        "Соль"
+      ],
+      "base": [
+        "Дуб",
+        "Пралине",
+        "Сандал",
+        "Дубовый мох",
+        "Ваниль"
+      ]
+    },
+    "description": "Из линии Ahtifal — гурманско-гастрономический аромат с коньячной теплотой и солёной карамелью.",
+    "section": "arabic"
+  },
+  {
+    "id": 90,
+    "catalogNumber": "90",
+    "name": "Ahtifal — Corporate",
+    "subBrand": "Anfar 1950",
+    "category": "унисекс",
+    "price": null,
+    "volume": 100,
+    "image": "/images/90-ahtifal-corporate.webp",
+    "notes": {
+      "top": [
+        "Лимон",
+        "Мята",
+        "Розовый перец",
+        "Амбра"
+      ],
+      "heart": [
+        "Имбирь",
+        "Мускатный орех",
+        "Жасмин",
+        "Изо Е Супер"
+      ],
+      "base": [
+        "Кедр",
+        "Ветивер",
+        "Сандал",
+        "Пачули",
+        "Лабданум",
+        "Белый мускус"
+      ]
+    },
+    "description": "Из линии Ahtifal — свежий деловой аромат на каждый день, чистый и уверенный.",
+    "section": "arabic"
+  },
+  {
+    "id": 91,
+    "catalogNumber": "91",
+    "name": "Summer in Dubai",
+    "subBrand": "Anfar 1950",
+    "category": "унисекс",
+    "price": null,
+    "volume": 100,
+    "image": "/images/91-summer-in-dubai.webp",
+    "notes": {
+      "top": [
+        "Морские ноты",
+        "Грейпфрут",
+        "Ананас",
+        "Бергамот"
+      ],
+      "heart": [
+        "Имбирь",
+        "Кардамон"
+      ],
+      "base": [
+        "Амбра",
+        "Пачули",
+        "Амброксан",
+        "Мускус",
+        "Тонка боб"
+      ]
+    },
+    "description": "Свежий летний аромат с морским бризом и тропической сладостью ананаса.",
+    "section": "arabic"
+  },
+  {
+    "id": 92,
+    "catalogNumber": "92",
+    "name": "Midnight Frost — Tangerine",
+    "subBrand": "Anfar London",
+    "category": "унисекс",
+    "price": null,
+    "volume": 100,
+    "image": "/images/92-midnight-frost-tangerine.webp",
+    "notes": {
+      "top": [
+        "Сицилийский бергамот",
+        "Калифорнийский мандарин",
+        "Яблоко",
+        "Мандарин",
+        "Шафран"
+      ],
+      "heart": [
+        "Слива",
+        "Ледяной аккорд",
+        "Апельсин",
+        "Цветок апельсина",
+        "Кардамон"
+      ],
+      "base": [
+        "Амбра",
+        "Мускус",
+        "Плавник",
+        "Мох"
+      ]
+    },
+    "description": "Midnight Edition от Anfar London — прохладный цитрусовый аромат с холодящим ледяным аккордом.",
+    "section": "arabic"
+  },
+  {
+    "id": 93,
+    "catalogNumber": "93",
+    "name": "Midnight Frost — Intense",
+    "subBrand": "Anfar London",
+    "category": "унисекс",
+    "price": null,
+    "volume": 100,
+    "image": "/images/93-midnight-frost-intense.webp",
+    "notes": {
+      "top": [
+        "Яблоко",
+        "Итальянский лимон",
+        "Бадьян",
+        "Сицилийский бергамот"
+      ],
+      "heart": [
+        "Слива",
+        "Цветок апельсина",
+        "Кардамон"
+      ],
+      "base": [
+        "Мускус",
+        "Амбра",
+        "Плавник",
+        "Мох"
+      ]
+    },
+    "description": "Private Edition линии Midnight Frost — более насыщенная и стойкая версия оригинала.",
+    "section": "arabic"
+  },
+  {
+    "id": 94,
+    "catalogNumber": "94",
+    "name": "Date Nights — Homme",
+    "subBrand": "Anfar London",
+    "category": "мужские",
+    "price": null,
+    "volume": 100,
+    "image": "/images/94-date-nights-homme.webp",
+    "notes": {
+      "top": [
+        "Красный апельсин",
+        "Мандарин"
+      ],
+      "heart": [
+        "Тонка боб",
+        "Амброксан"
+      ],
+      "base": [
+        "Помело",
+        "Грейпфрут"
+      ]
+    },
+    "description": "Свежий цитрусовый аромат для вечернего свидания — лёгкий, но запоминающийся.",
+    "section": "arabic"
+  },
+  {
+    "id": 95,
+    "catalogNumber": "95",
+    "name": "Rituals of Anfar — Chef-D'Oeuvre",
+    "subBrand": "Anfar London",
+    "category": "унисекс",
+    "price": null,
+    "volume": 80,
+    "image": "/images/95-rituals-chef-doeuvre.webp",
+    "notes": {
+      "top": [
+        "Сицилийский апельсин",
+        "Калабрийский бергамот",
+        "Сицилийский лимон"
+      ],
+      "heart": [
+        "Фрукты"
+      ],
+      "base": [
+        "Белый мускус",
+        "Мадагаскарская ваниль",
+        "Амбра"
+      ]
+    },
+    "description": "Из линии Rituals of Anfar — светлый цитрусово-ванильный аромат, лёгкий на каждый день.",
+    "section": "arabic"
+  },
+  {
+    "id": 96,
+    "catalogNumber": "96",
+    "name": "Rituals of Anfar — Meditation",
+    "subBrand": "Anfar London",
+    "category": "унисекс",
+    "price": null,
+    "volume": 80,
+    "image": "/images/96-rituals-meditation.webp",
+    "notes": {
+      "top": [
+        "Тубероза",
+        "Розовый перец",
+        "Мускатный шалфей",
+        "Фруктовые ноты"
+      ],
+      "heart": [
+        "Иланг-иланг",
+        "Цветок апельсина",
+        "Бензоин",
+        "Кашмеран"
+      ],
+      "base": [
+        "Тубероза (в шлейфе)",
+        "Амбра"
+      ]
+    },
+    "description": "Из линии Rituals of Anfar — цветочный, медитативный аромат с тёплым бензоиновым шлейфом.",
+    "section": "arabic"
+  },
+  {
+    "id": 97,
+    "catalogNumber": "97",
+    "name": "Rituals of Anfar — Divine",
+    "subBrand": "Anfar London",
+    "category": "унисекс",
+    "price": null,
+    "volume": 80,
+    "image": "/images/97-rituals-divine.webp",
+    "notes": {
+      "top": [
+        "Личи",
+        "Роза",
+        "Бергамот",
+        "Мускатный орех"
+      ],
+      "heart": [
+        "Пион",
+        "Мускус",
+        "Петалия",
+        "Ваниль"
+      ],
+      "base": [
+        "Кашмеран",
+        "Ладан",
+        "Ветивер",
+        "Кедр"
+      ]
+    },
+    "description": "Из линии Rituals of Anfar — фруктово-цветочный аромат с деликатным древесным следом.",
+    "section": "arabic"
+  },
+  {
+    "id": 98,
+    "catalogNumber": "98",
+    "name": "Aesthetic Edition — Intense Sport",
+    "subBrand": "Anfar London",
+    "category": "мужские",
+    "price": null,
+    "volume": 100,
+    "image": "/images/98-aesthetic-edition-intense-sport.webp",
+    "notes": {
+      "top": [
+        "Ананас",
+        "Бергамот",
+        "Чёрная смородина",
+        "Яблоко"
+      ],
+      "heart": [
+        "Берёза",
+        "Пачули",
+        "Роза",
+        "Марокканский жасмин"
+      ],
+      "base": [
+        "Дубовый мох",
+        "Ваниль",
+        "Амбра серая",
+        "Мускус"
+      ]
+    },
+    "description": "Энергичный спортивный аромат с фруктовой атакой и древесно-мускусным шлейфом.",
+    "section": "arabic"
+  },
+  {
+    "id": 99,
+    "catalogNumber": "99",
+    "name": "Serie de Marbre — Bateig Azul",
+    "subBrand": "Anfar London",
+    "category": "унисекс",
+    "price": null,
+    "volume": 100,
+    "image": "/images/99-serie-de-marbre-bateig-azul.webp",
+    "notes": {
+      "top": [
+        "Цитрон",
+        "Апельсин",
+        "Мята",
+        "Лимон",
+        "Чёрная смородина",
+        "Кориандр"
+      ],
+      "heart": [
+        "Абрикос",
+        "Базилик",
+        "Семена моркови",
+        "Майская роза"
+      ],
+      "base": [
+        "Инжир",
+        "Финики",
+        "Амбретта"
+      ]
+    },
+    "description": "Из коллекции Serie de Marbre — свежий гурманский аромат на грани фруктовой и зелёной свежести.",
+    "section": "arabic"
+  },
+  {
+    "id": 100,
+    "catalogNumber": "100",
+    "name": "Absolu D'Orient",
+    "subBrand": "Anfar London",
+    "category": "мужские",
+    "price": null,
+    "volume": 115,
+    "image": "/images/100-absolu-dorient.webp",
+    "notes": {
+      "top": [
+        "Чёрная смородина",
+        "Пряности",
+        "Ананас",
+        "Грейпфрут",
+        "Бергамот"
+      ],
+      "heart": [
+        "Дым",
+        "Пачули",
+        "Жасмин",
+        "Кедр",
+        "Роза"
+      ],
+      "base": [
+        "Дубовый мох",
+        "Древесные ноты",
+        "Амбра серая",
+        "Ваниль"
+      ]
+    },
+    "description": "Восточно-древесный аромат с дымным, пряным характером — плотный и статусный.",
+    "section": "arabic"
+  },
+  {
+    "id": 101,
+    "catalogNumber": "101",
+    "name": "Musc D'Orient",
+    "subBrand": "Anfar London",
+    "category": "унисекс",
+    "price": null,
+    "volume": 115,
+    "image": "/images/101-musc-dorient.webp",
+    "notes": {
+      "top": [
+        "Розовый перец",
+        "Шафран",
+        "Мускатный орех"
+      ],
+      "heart": [
+        "Амбра",
+        "Пачули"
+      ],
+      "base": [
+        "Амброксан",
+        "Мускус",
+        "Древесные ноты"
+      ]
+    },
+    "description": "Мускусно-восточный аромат — пряный, тёплый, с выразительным древесно-амбровым следом.",
+    "section": "arabic"
+  },
+  {
+    "id": 102,
+    "catalogNumber": "102",
+    "name": "Butterscotch",
+    "subBrand": "Adyan by Anfar",
+    "category": "унисекс",
+    "price": null,
+    "volume": 100,
+    "image": "/images/102-butterscotch.webp",
+    "notes": {
+      "top": [
+        "Ваниль",
+        "Карамель"
+      ],
+      "heart": [
+        "Ирис (конфета)",
+        "Сахар"
+      ],
+      "base": [
+        "Коричневый сахар",
+        "Сливочное масло",
+        "Соль"
+      ]
+    },
+    "description": "Гурманский десертный аромат линии Adyan — тёплая карамель со сливочной ванилью.",
+    "section": "arabic"
+  },
+  {
+    "id": 103,
+    "catalogNumber": "103",
+    "name": "Candy Scoop",
+    "subBrand": "Adyan by Anfar",
+    "category": "женские",
+    "price": null,
+    "volume": 100,
+    "image": "/images/103-candy-scoop.webp",
+    "notes": {
+      "top": [
+        "Чёрная смородина",
+        "Зелёный мандарин"
+      ],
+      "heart": [
+        "Игристая клубника",
+        "Конфеты",
+        "Гардения"
+      ],
+      "base": [
+        "Ваниль",
+        "Мускус",
+        "Амбра",
+        "Сандал"
+      ]
+    },
+    "description": "Сладкий гурманский аромат линии Adyan — сочная ягодная свежесть с цветочным сердцем.",
+    "section": "arabic"
+  },
+  {
+    "id": 104,
+    "catalogNumber": "104",
+    "name": "House of Sorbet — Hawaiian Colada",
+    "subBrand": "Adyan by Anfar",
+    "category": "унисекс",
+    "price": null,
+    "volume": 100,
+    "image": "/images/104-house-of-sorbet-hawaiian-colada.webp",
+    "notes": {
+      "top": [
+        "Ананас",
+        "Персик",
+        "Манго"
+      ],
+      "heart": [
+        "Кокосовое молоко",
+        "Франжипани",
+        "Ваниль"
+      ],
+      "base": [
+        "Древесные ноты",
+        "Белый мускус"
+      ]
+    },
+    "description": "Из линии House of Sorbet — тропический гурманский аромат, как коктейль на пляже.",
+    "section": "arabic"
+  },
+  {
+    "id": 105,
+    "catalogNumber": "105",
+    "name": "House of Sorbet — Tropic Swirl",
+    "subBrand": "Adyan by Anfar",
+    "category": "унисекс",
+    "price": null,
+    "volume": 100,
+    "image": "/images/105-house-of-sorbet-tropic-swirl.webp",
+    "notes": {
+      "top": [
+        "Мандарин",
+        "Апельсин",
+        "Лимон"
+      ],
+      "heart": [
+        "Арбуз",
+        "Кокос"
+      ],
+      "base": [
+        "Амбра серая",
+        "Амбровое дерево",
+        "Какао"
+      ]
+    },
+    "description": "Из линии House of Sorbet — освежающий тропический аромат с арбузно-кокосовым сердцем.",
+    "section": "arabic"
+  },
+  {
+    "id": 106,
+    "catalogNumber": "106",
+    "name": "House of Sorbet — Sugar Whip",
+    "subBrand": "Adyan by Anfar",
+    "category": "унисекс",
+    "price": null,
+    "volume": 100,
+    "image": "/images/106-house-of-sorbet-sugar-whip.webp",
+    "notes": {
+      "top": [
+        "Белый сахар",
+        "Спелая клубника",
+        "Взбитые сливки"
+      ],
+      "heart": [
+        "Белый мускус"
+      ],
+      "base": [
+        "Абсолют ванили",
+        "Амброксан"
+      ]
+    },
+    "description": "Из линии House of Sorbet — воздушный десертный аромат, сладкий и лёгкий, как безе.",
+    "section": "arabic"
+  },
+  {
+    "id": 107,
+    "catalogNumber": "107",
+    "name": "Oud Essential",
+    "subBrand": "Adyan by Anfar",
+    "category": "мужские",
+    "price": null,
+    "volume": 100,
+    "image": "/images/107-oud-essential.webp",
+    "notes": {
+      "top": [
+        "Шафран",
+        "Мускатный орех",
+        "Лаванда"
+      ],
+      "heart": [
+        "Уд (агаровое дерево)"
+      ],
+      "base": [
+        "Пачули",
+        "Мускус"
+      ]
+    },
+    "description": "Классический уд от Adyan by Anfar (Eau de Parfum) — глубокий, смолистый, для тех, кто любит чистый восточный характер.",
+    "section": "arabic"
   }
 ]
