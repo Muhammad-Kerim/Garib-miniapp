@@ -1,7 +1,7 @@
 import styles from './FragranceComparison.module.css'
 
 export default function FragranceComparison({ product }) {
-  const { originalBrand, originalName, name, comparison } = product
+  const { originalBrand, originalName, name, comparison, price } = product
   const origPrice = comparison.originalPrice?.toLocaleString('ru')
 
   return (
@@ -24,12 +24,12 @@ export default function FragranceComparison({ product }) {
         <div className={styles.vs}>VS</div>
 
         <div className={`${styles.col} ${styles.colRight}`}>
-          <span className={`${styles.colLabel} ${styles.colLabelAccent}`}>GARIB</span>
-          <p className={styles.brand}>garib</p>
+          <span className={`${styles.colLabel} ${styles.colLabelAccent}`}>SOLANO</span>
+          <p className={styles.brand}>Solano</p>
           <p className={styles.perfumeName}>{name}</p>
           <p className={styles.desc}>{comparison.solanoDesc}</p>
           <div className={styles.meta}>
-            <span className={styles.ourPrice}>2 500 ₽</span>
+            <span className={styles.ourPrice}>{price.toLocaleString('ru')} ₽</span>
             <span className={styles.metaItem}>⏱ {comparison.durabilityS}</span>
             <span className={styles.metaItem}>🇹🇷 Турция</span>
           </div>
