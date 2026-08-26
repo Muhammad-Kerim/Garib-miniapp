@@ -7,10 +7,10 @@ const SOURCE_LABELS = {
 }
 
 async function notifySource(payload, from) {
-  if (!payload || !process.env.MANAGER_CHAT_ID) return
+  if (!payload || !process.env.ANALYTICS_CHAT_ID) return
   const who = from?.username ? `@${esc(from.username)}` : esc(from?.first_name || 'неизвестен')
   const source = SOURCE_LABELS[payload] || esc(payload)
-  await sendMessage(process.env.MANAGER_CHAT_ID, `📊 Переход в бота: ${source}\n👤 ${who}`)
+  await sendMessage(process.env.ANALYTICS_CHAT_ID, `📊 Переход в бота: ${source}\n👤 ${who}`)
 }
 
 export default async function handler(req, res) {
