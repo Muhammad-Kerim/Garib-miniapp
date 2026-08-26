@@ -1,6 +1,17 @@
-import { sendMessage } from './_lib/telegram.js'
+import { sendMessage, esc } from './_lib/telegram.js'
 
 const WELCOME_TEXT = 'Добро пожаловать в GARIB PERFUME 🌿\n\n20 лет в мире ароматов. Более 1000 позиций — от мировых люксовых брендов до редкой арабской парфюмерии.\n\nНаш бренд SOLANO — ароматы 1:1 с Chanel, Dior, Tom Ford, Creed и другими. Стойкость 10–12 часов, высочайшее качество.\n\n💬 Менеджер: @garibperfume\n⭐️ Отзывы наших клиентов: https://t.me/+vUCx-VCTGF5mNTUy\n\nОткройте каталог и найдите свой аромат 👇'
+
+const SOURCE_LABELS = {
+  channel: 'закреп в канале dukhi_parfumeria',
+}
+
+async function notifySource(payload, from) {
+  if (!payload || !process.env.MANAGER_CHAT_ID) return
+  const who = from?.username ? `@${esc(from.username)}` : esc(from?.first_name || 'неизвестен')
+  const source = SOURCE_LABELS[payload] || esc(payload)
+  await sendMessage(process.env.MANAGER_CHAT_ID, `📊 Переход в бота: ${source}\n👤 ${who}`)
+}
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -18,6 +29,7 @@ export default async function handler(req, res) {
     const text = update.message?.text
 
     if (text?.startsWith('/start')) {
+      const [, payload] = text.split(' ')
       await sendMessage(update.message.chat.id, WELCOME_TEXT, {
         reply_markup: {
           inline_keyboard: [[{
@@ -26,6 +38,7 @@ export default async function handler(req, res) {
           }]],
         },
       })
+      await notifySource(payload, update.message.from).catch(err => console.error('notifySource failed', err))
     }
 
     res.json({ ok: true })
