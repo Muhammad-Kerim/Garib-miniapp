@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     const update = req.body
     const text = update.message?.text
 
-    if (text === '/start') {
+    if (text?.startsWith('/start')) {
       await sendMessage(update.message.chat.id, WELCOME_TEXT, {
         reply_markup: {
           inline_keyboard: [[{
