@@ -84,6 +84,7 @@ export default function ProductPage() {
                 <span className={styles.price}>{product.price.toLocaleString('ru')} ₽</span>
                 <span className={styles.volume}>{product.volume} мл</span>
               </div>
+              {product.promo && <p className={styles.promoNote}>🔥 {product.promo}</p>}
               {soldOut ? (
                 <button className={`btn-primary ${styles.soldOutBtn}`} disabled>
                   Нет в наличии — скоро вернётся

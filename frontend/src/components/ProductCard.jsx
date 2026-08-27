@@ -50,6 +50,7 @@ export default function ProductCard({ product }) {
         </button>
         <span className={styles.volume}>{product.volume} мл</span>
         {soldOut && <span className={styles.soldOutBadge}>Нет в наличии</span>}
+        {!soldOut && product.promo && <span className={styles.promoBadge}>{product.promo}</span>}
       </div>
       <div className={styles.body}>
         <p className={styles.original}>

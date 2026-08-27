@@ -2580,6 +2580,46 @@
     "description": "Непобедимый — мощный и победоносный мужской аромат."
   },
   {
+    "id": 75,
+    "catalogNumber": "75",
+    "name": "Cmilka",
+    "originalBrand": "Vilhelm Parfumerie",
+    "originalName": "Chimilka",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/75-cmilka.webp",
+    "comparison": {
+      "originalDesc": "Нишевый ориентально-древесный аромат 2025 года. Персик, мандарин и кардамон в начале, тёмная кожа и шафран в сердце.",
+      "solanoDesc": "Тот же узнаваемый характер за доступную цену",
+      "originalPrice": 33000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 8 часов"
+    },
+    "notes": {
+      "top": [
+        "Бархатистый персик",
+        "Итальянский мандарин",
+        "Цейлонский кардамон"
+      ],
+      "heart": [
+        "Тёмная кожа",
+        "Фиалка",
+        "Греческий шафран",
+        "Дубовый мох",
+        "Бессмертник",
+        "Китайский османтус"
+      ],
+      "base": [
+        "Индонезийские пачули",
+        "Амбра",
+        "Розовый сахар",
+        "Мускус"
+      ]
+    },
+    "description": "Ориентально-древесный унисекс-аромат — сочный персик и мандарин на старте, тёплая кожа и шафран в сердце, пачули и амбра в шлейфе."
+  },
+  {
     "id": 76,
     "catalogNumber": "76",
     "name": "Avendator",
@@ -3539,5 +3579,868 @@
     },
     "description": "Классический уд от Adyan by Anfar (Eau de Parfum) — глубокий, смолистый, для тех, кто любит чистый восточный характер.",
     "section": "arabic"
+  },
+  {
+    "id": 110,
+    "catalogNumber": "1",
+    "name": "Peach Passion Fruit Musk",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 50,
+    "image": "/images/110-peach-passion-fruit-musk.webp",
+    "description": "Ароматический диффузор для дома «Peach Passion Fruit Musk» — композиция персика, маракуйи и мускуса. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 111,
+    "catalogNumber": "2",
+    "name": "Vetiver, Lemon, Bergamot",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/111-vetiver-lemon-bergamot.webp",
+    "description": "Ароматический диффузор для дома «Vetiver, Lemon, Bergamot» — композиция ветивера, лимона и бергамота. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 112,
+    "catalogNumber": "3",
+    "name": "Fiction",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/112-fiction.webp",
+    "description": "Ароматический диффузор для дома «Fiction» — композиция авторская композиция «Fiction». Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 113,
+    "catalogNumber": "4",
+    "name": "Green Tea",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/113-green-tea.webp",
+    "description": "Ароматический диффузор для дома «Green Tea» — композиция зелёного чая. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 114,
+    "catalogNumber": "5",
+    "name": "Oakmoss & Amber",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/114-oakmoss-amber.webp",
+    "description": "Ароматический диффузор для дома «Oakmoss & Amber» — композиция дубового мха и амбры. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 115,
+    "catalogNumber": "6",
+    "name": "Orange & Jasmine, Vanilla",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/115-orange-jasmine-vanilla.webp",
+    "description": "Ароматический диффузор для дома «Orange & Jasmine, Vanilla» — композиция апельсина, жасмина и ванили. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 116,
+    "catalogNumber": "7",
+    "name": "Pink Pepper, Elemi, Cinnamon, Leather",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/116-pink-pepper-elemi-cinnamon-leather.webp",
+    "description": "Ароматический диффузор для дома «Pink Pepper, Elemi, Cinnamon, Leather» — композиция розового перца, элеми, корицы и кожи. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 117,
+    "catalogNumber": "8",
+    "name": "Tobacco, Amber, Patchouli",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/117-tobacco-amber-patchouli.webp",
+    "description": "Ароматический диффузор для дома «Tobacco, Amber, Patchouli» — композиция табака, амбры и пачули. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 118,
+    "catalogNumber": "9",
+    "name": "Vanilla Blend",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/118-vanilla-blend.webp",
+    "description": "Ароматический диффузор для дома «Vanilla Blend» — композиция ванильная композиция. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 119,
+    "catalogNumber": "10",
+    "name": "Apple Lotus",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/119-apple-lotus.webp",
+    "description": "Ароматический диффузор для дома «Apple Lotus» — композиция яблока и лотоса. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 120,
+    "catalogNumber": "11",
+    "name": "Black Pepper, Amber, Neroli",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/120-black-pepper-amber-neroli.webp",
+    "description": "Ароматический диффузор для дома «Black Pepper, Amber, Neroli» — композиция чёрного перца, амбры и нероли. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 121,
+    "catalogNumber": "12",
+    "name": "Black Vanilla",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/121-black-vanilla.webp",
+    "description": "Ароматический диффузор для дома «Black Vanilla» — композиция тёмная ванильная композиция. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 122,
+    "catalogNumber": "13",
+    "name": "7/7",
+    "subBrand": "Viajero · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/122-7-7.webp",
+    "description": "Ароматический диффузор для дома «7/7» — композиция авторская композиция «7/7». Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 108,
+    "catalogNumber": "14",
+    "name": "Orange & Jasmine, Lemon",
+    "subBrand": "Виа Жерон · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/108-orange-jasmine-lemon.webp",
+    "description": "Ароматический диффузор для дома «Orange & Jasmine, Lemon» — цитрусово-цветочная композиция апельсина, жасмина и лимона. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 109,
+    "catalogNumber": "15",
+    "name": "Patchouli & Jasmin, Lemon",
+    "subBrand": "Виа Жерон · Диффузор",
+    "category": "унисекс",
+    "price": 1000,
+    "volume": 86,
+    "image": "/images/109-patchouli-jasmin-lemon.webp",
+    "description": "Ароматический диффузор для дома «Patchouli & Jasmin, Lemon» — приятный терпкий аромат пачули, жасмина и лимона. Тростниковые палочки в комплекте, произведено в Стамбуле. Акция: 2 штуки — 1000 ₽ (2 по цене одного).",
+    "section": "via-zheron",
+    "type": "diffuser",
+    "promo": "2 шт — 1000 ₽"
+  },
+  {
+    "id": 123,
+    "catalogNumber": "16",
+    "name": "Набор 5 ароматов",
+    "subBrand": "Viajero · Набор",
+    "category": "унисекс",
+    "price": null,
+    "volume": "5×5",
+    "image": "/images/123-nabor-5-aromatov.webp",
+    "description": "Набор из 5 роллер-флаконов по 5 мл: OW, Aheb, Meeerat Al Arab, Yara, Didance — eau de parfum. Удобно попробовать разные направления или взять с собой в поездку.",
+    "section": "via-zheron",
+    "type": "set5"
+  },
+  {
+    "id": 124,
+    "catalogNumber": "17",
+    "name": "Набор 5 ароматов (вариант 2)",
+    "subBrand": "Viajero · Набор",
+    "category": "унисекс",
+    "price": null,
+    "volume": "5×5",
+    "image": "/images/124-nabor-5-aromatov-v2.webp",
+    "description": "Тестовый вариант фото того же набора (OW, Aheb, Meeerat Al Arab, Yara, Didance, по 5 мл) — другой фон, для сравнения.",
+    "section": "via-zheron",
+    "type": "set5"
+  },
+  {
+    "id": 125,
+    "catalogNumber": "27",
+    "name": "Rave Now",
+    "subBrand": "Lattafa",
+    "category": "унисекс",
+    "price": 3000,
+    "volume": 100,
+    "image": "/images/125-rave-now.webp",
+    "notes": {
+      "top": [
+        "Ананас",
+        "Бергамот",
+        "Яблоко"
+      ],
+      "heart": [
+        "Роза",
+        "Жасмин",
+        "Пачули",
+        "Береза"
+      ],
+      "base": [
+        "Ваниль",
+        "Дубовый мох",
+        "Мускус"
+      ]
+    },
+    "description": "Яркий фруктово-древесный унисекс-аромат от Lattafa — сочный ананас и яблоко на старте, цветочно-древесное сердце и тёплый мускусный шлейф.",
+    "section": "arabic"
+  },
+  {
+    "id": 126,
+    "catalogNumber": "28",
+    "name": "Teriaq",
+    "subBrand": "Lattafa",
+    "category": "унисекс",
+    "price": 4500,
+    "volume": 100,
+    "image": "/images/126-teriaq.webp",
+    "notes": {
+      "top": [
+        "Розовый перец",
+        "Карамель",
+        "Горький миндаль",
+        "Абрикос"
+      ],
+      "heart": [
+        "Мёд",
+        "Белые цветы",
+        "Ревень",
+        "Роза"
+      ],
+      "base": [
+        "Ваниль",
+        "Кожа",
+        "Лабданум",
+        "Мускус",
+        "Ветивер"
+      ]
+    },
+    "description": "Гурманский унисекс-аромат Lattafa 2024 года от парфюмера Quentin Bisch — тёплая карамель и мёд на фоне кожи и ветивера.",
+    "section": "arabic"
+  },
+  {
+    "id": 127,
+    "catalogNumber": "29",
+    "name": "Eclaire Banoffi",
+    "subBrand": "Lattafa",
+    "category": "унисекс",
+    "price": 4500,
+    "volume": 100,
+    "image": "/images/127-eclaire-banoffi.webp",
+    "notes": {
+      "top": [
+        "Банан",
+        "Ирис (дульсе де лече)"
+      ],
+      "heart": [
+        "Ваниль",
+        "Взбитые сливки"
+      ],
+      "base": [
+        "Бисквит",
+        "Пралине",
+        "Мускус"
+      ]
+    },
+    "description": "Десертный гурман-аромат Lattafa в духе банофи-пая — банан и карамель, взбитые сливки и ореховое пралине.",
+    "section": "arabic"
+  },
+  {
+    "id": 128,
+    "catalogNumber": "30",
+    "name": "Eclaire Pistache",
+    "subBrand": "Lattafa",
+    "category": "унисекс",
+    "price": 4500,
+    "volume": 100,
+    "image": "/images/128-eclaire-pistache.webp",
+    "notes": {
+      "top": [
+        "Фисташковый крем",
+        "Фисташка"
+      ],
+      "heart": [
+        "Взбитые сливки",
+        "Какао",
+        "Кокос"
+      ],
+      "base": [
+        "Ваниль",
+        "Молоко",
+        "Мускус"
+      ]
+    },
+    "description": "Восточно-ванильный гурман Lattafa — фисташковый крем, какао и кокос на молочно-мускусной базе.",
+    "section": "arabic"
+  },
+  {
+    "id": 129,
+    "catalogNumber": "31",
+    "name": "Monocline 02",
+    "subBrand": "Maison Alhambra",
+    "category": "унисекс",
+    "price": 3000,
+    "volume": 100,
+    "image": "/images/129-monocline-02.webp",
+    "notes": {
+      "top": [
+        "Грейпфрут",
+        "Сладкий апельсин"
+      ],
+      "heart": [
+        "Сандал",
+        "Лилия",
+        "Чёрный перец"
+      ],
+      "base": [
+        "Амброксан",
+        "Мускус"
+      ]
+    },
+    "description": "Минималистичный унисекс-аромат Maison Alhambra на амброксане — свежий цитрусовый старт и чистый мускусный шлейф.",
+    "section": "arabic"
+  },
+  {
+    "id": 130,
+    "catalogNumber": "32",
+    "name": "Artisan Ethnique",
+    "subBrand": "Lattafa Pride",
+    "category": "унисекс",
+    "price": 5000,
+    "volume": 100,
+    "image": "/images/130-artisan-ethnique.webp",
+    "notes": {
+      "top": [
+        "Ром",
+        "Корица",
+        "Сахар"
+      ],
+      "heart": [
+        "Карамель",
+        "Какао",
+        "Кофе",
+        "Дубовый мох"
+      ],
+      "base": [
+        "Ваниль",
+        "Тонка",
+        "Кашемировое дерево",
+        "Лабданум"
+      ]
+    },
+    "description": "Сладко-пряный гурман Lattafa Pride 2024 года — ром и корица, кофе с какао и тёплая ванильно-тонковая база.",
+    "section": "arabic"
+  },
+  {
+    "id": 131,
+    "catalogNumber": "33",
+    "name": "Kismet for Women",
+    "subBrand": "Maison Alhambra",
+    "category": "женские",
+    "price": 3500,
+    "volume": 100,
+    "image": "/images/131-kismet-for-women.webp",
+    "notes": {
+      "top": [
+        "Абрикос",
+        "Роза",
+        "Жасмин"
+      ],
+      "heart": [
+        "Тубероза",
+        "Нарцисс"
+      ],
+      "base": [
+        "Амбра",
+        "Кедр"
+      ]
+    },
+    "description": "Восточно-цветочный женский аромат Maison Alhambra — фруктово-цветочный старт, кремовые белые цветы в сердце и тёплая амбровая база.",
+    "section": "arabic"
+  },
+  {
+    "id": 132,
+    "catalogNumber": "34",
+    "name": "Supremacy Pour Femme",
+    "subBrand": "Afnan",
+    "category": "женские",
+    "price": 5500,
+    "volume": 100,
+    "image": "/images/132-supremacy-pour-femme.webp",
+    "notes": {
+      "top": [
+        "Персик",
+        "Апельсин",
+        "Бергамот"
+      ],
+      "heart": [
+        "Амбра",
+        "Белый мускус"
+      ],
+      "base": [
+        "Груша",
+        "Мускус",
+        "Ваниль"
+      ]
+    },
+    "description": "Восточный женский аромат Afnan — сочный персик и цитрусы на старте, сладкая амбра и ванильный мускусный шлейф.",
+    "section": "arabic"
+  },
+  {
+    "id": 133,
+    "catalogNumber": "35",
+    "name": "King of Arabia",
+    "subBrand": "Lattafa Pride",
+    "category": "унисекс",
+    "price": 5500,
+    "volume": 100,
+    "image": "/images/133-king-of-arabia.webp",
+    "notes": {
+      "top": [
+        "Малина",
+        "Бергамот"
+      ],
+      "heart": [
+        "Кедр",
+        "Ирис",
+        "Османтус"
+      ],
+      "base": [
+        "Кожа",
+        "Пачули",
+        "Ваниль"
+      ]
+    },
+    "description": "Кожаный ориентальный аромат Lattafa Pride — сочная малина и бергамот на старте, благородная кожа и пачули в базе.",
+    "section": "arabic"
+  },
+  {
+    "id": 134,
+    "catalogNumber": "36",
+    "name": "Queen of Arabia",
+    "subBrand": "Lattafa Pride",
+    "category": "женские",
+    "price": 5500,
+    "volume": 100,
+    "image": "/images/134-queen-of-arabia.webp",
+    "notes": {
+      "top": [
+        "Кокос",
+        "Соль"
+      ],
+      "heart": [
+        "Сандал",
+        "Гелиотроп"
+      ],
+      "base": [
+        "Ваниль",
+        "Амбра"
+      ]
+    },
+    "description": "Восточно-цветочный женский аромат Lattafa Pride — кокос и морская соль на старте, сандал и тёплая ванильно-амбровая база.",
+    "section": "arabic"
+  },
+  {
+    "id": 135,
+    "catalogNumber": "37",
+    "name": "Shaheen Silver",
+    "subBrand": "Lattafa Pride",
+    "category": "унисекс",
+    "price": 5500,
+    "volume": 100,
+    "image": "/images/135-shaheen-silver.webp",
+    "notes": {
+      "top": [
+        "Бергамот",
+        "Чёрная смородина"
+      ],
+      "heart": [
+        "Пачули",
+        "Роза"
+      ],
+      "base": [
+        "Дубовый мох",
+        "Мускус",
+        "Амбра"
+      ]
+    },
+    "description": "Древесно-шипровый унисекс-аромат Lattafa Pride 2022 года — терпкая смородина и бергамот, пачули и мшистая амбровая база.",
+    "section": "arabic"
+  },
+  {
+    "id": 136,
+    "catalogNumber": "38",
+    "name": "Eternal Oud",
+    "subBrand": "Lattafa Pride",
+    "category": "унисекс",
+    "price": 5500,
+    "volume": 100,
+    "image": "/images/136-eternal-oud.webp",
+    "notes": {
+      "top": [
+        "Слива",
+        "Грейпфрут"
+      ],
+      "heart": [
+        "Гелиотроп",
+        "Орхидея"
+      ],
+      "base": [
+        "Амбра",
+        "Бензоин",
+        "Ваниль",
+        "Лабданум",
+        "Тонка",
+        "Уд"
+      ]
+    },
+    "description": "Ориентальный унисекс-аромат Lattafa Pride 2022 года — сочная слива на старте, орхидея в сердце и глубокий удовый шлейф.",
+    "section": "arabic"
+  },
+  {
+    "id": 137,
+    "catalogNumber": "80",
+    "name": "Tempting Power",
+    "subBrand": "Solano · FOR",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/137-tempting-power.webp",
+    "description": "Новая линия Solano FOR — мужской аромат с уверенным, притягательным характером.",
+    "originalBrand": "Emporio Armani",
+    "originalName": "Stronger With You",
+    "notes": {
+      "top": [
+        "Кардамон",
+        "Розовый перец",
+        "Листья фиалки"
+      ],
+      "heart": [
+        "Шалфей"
+      ],
+      "base": [
+        "Засахаренный каштан",
+        "Ваниль",
+        "Ориентальное дерево"
+      ]
+    },
+    "comparison": {
+      "originalDesc": "Тёплый пряно-древесный мужской аромат Giorgio Armani.",
+      "solanoDesc": "Тот же узнаваемый характер за доступную цену",
+      "originalPrice": 9000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 6 часов"
+    }
+  },
+  {
+    "id": 138,
+    "catalogNumber": "81",
+    "name": "Aura",
+    "subBrand": "Solano · Skandal",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/138-aura.webp",
+    "description": "Коллекция Solano Skandal — женский аромат с яркой, дерзкой аурой.",
+    "originalBrand": "Jean Paul Gaultier",
+    "originalName": "Scandal",
+    "notes": {
+      "top": [
+        "Кровавый апельсин",
+        "Мандарин"
+      ],
+      "heart": [
+        "Мёд",
+        "Гардения",
+        "Жасмин",
+        "Флёрдоранж",
+        "Персик"
+      ],
+      "base": [
+        "Пачули",
+        "Пчелиный воск",
+        "Карамель",
+        "Лакрица"
+      ]
+    },
+    "comparison": {
+      "originalDesc": "Сладкий гурманский шипр Jean Paul Gaultier с медово-пачулевым характером.",
+      "solanoDesc": "Тот же узнаваемый характер за доступную цену",
+      "originalPrice": 9000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 6 часов"
+    }
+  },
+  {
+    "id": 139,
+    "catalogNumber": "82",
+    "name": "Daring Sense",
+    "subBrand": "Solano · Skandal",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/139-daring-sense.webp",
+    "description": "Коллекция Solano Skandal — мужской аромат для тех, кто не боится выделяться.",
+    "originalBrand": "Jean Paul Gaultier",
+    "originalName": "Scandal Pour Homme",
+    "notes": {
+      "top": [
+        "Шалфей мускатный",
+        "Мандарин"
+      ],
+      "heart": [
+        "Карамель",
+        "Тонка"
+      ],
+      "base": [
+        "Ветивер"
+      ]
+    },
+    "comparison": {
+      "originalDesc": "Современный древесно-ориентальный мужской аромат Jean Paul Gaultier.",
+      "solanoDesc": "Тот же узнаваемый характер за доступную цену",
+      "originalPrice": 9000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 6 часов"
+    }
+  },
+  {
+    "id": 140,
+    "catalogNumber": "83",
+    "name": "Le Paul",
+    "subBrand": "Solano · Elixir",
+    "category": "мужские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/140-le-paul.webp",
+    "description": "Премиальная линия Solano Elixir — насыщенный мужской аромат-эликсир.",
+    "originalBrand": "Jean Paul Gaultier",
+    "originalName": "Le Male Elixir",
+    "notes": {
+      "top": [
+        "Лаванда",
+        "Мята"
+      ],
+      "heart": [
+        "Ваниль",
+        "Бензоин"
+      ],
+      "base": [
+        "Мёд",
+        "Тонка",
+        "Табак"
+      ]
+    },
+    "comparison": {
+      "originalDesc": "Насыщенная версия культового Le Male — лаванда, ваниль и табак.",
+      "solanoDesc": "Тот же узнаваемый характер за доступную цену",
+      "originalPrice": 13000,
+      "durabilityOriginal": "до 10 часов",
+      "durabilityS": "до 8 часов"
+    }
+  },
+  {
+    "id": 141,
+    "catalogNumber": "84",
+    "name": "Diviness",
+    "subBrand": "Solano",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/141-diviness.webp",
+    "description": "Новый аромат Solano — женственный и утончённый характер.",
+    "originalBrand": "Burberry",
+    "originalName": "Goddess",
+    "notes": {
+      "top": [
+        "Ваниль",
+        "Лаванда",
+        "Какао",
+        "Имбирь"
+      ],
+      "heart": [
+        "Ванильная икра"
+      ],
+      "base": [
+        "Абсолю ванили"
+      ]
+    },
+    "comparison": {
+      "originalDesc": "Гурманский ванильный женский аромат Burberry 2023 года.",
+      "solanoDesc": "Тот же узнаваемый характер за доступную цену",
+      "originalPrice": 19000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 6 часов"
+    }
+  },
+  {
+    "id": 142,
+    "catalogNumber": "85",
+    "name": "Subtle Paradoxe",
+    "subBrand": "Solano",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/142-subtle-paradoxe.webp",
+    "description": "Новый аромат Solano — игра контрастов в женском характере.",
+    "originalBrand": "Prada",
+    "originalName": "Paradoxe",
+    "notes": {
+      "top": [
+        "Груша",
+        "Мандарин",
+        "Бергамот"
+      ],
+      "heart": [
+        "Флёрдоранж",
+        "Нероли",
+        "Жасмин самбак"
+      ],
+      "base": [
+        "Бурбонская ваниль",
+        "Амбра",
+        "Белый мускус",
+        "Бензоин"
+      ]
+    },
+    "comparison": {
+      "originalDesc": "Современный цветочно-амбровый женский аромат Prada.",
+      "solanoDesc": "Тот же узнаваемый характер за доступную цену",
+      "originalPrice": 19000,
+      "durabilityOriginal": "до 8 часов",
+      "durabilityS": "до 6 часов"
+    }
+  },
+  {
+    "id": 143,
+    "catalogNumber": "86",
+    "name": "Red Impact",
+    "subBrand": "Solano",
+    "category": "женские",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/143-red-impact.webp",
+    "description": "Новый аромат Solano — яркий и запоминающийся женский образ.",
+    "originalBrand": "Carolina Herrera",
+    "originalName": "La Bomba",
+    "notes": {
+      "top": [
+        "Питахайя",
+        "Ананас",
+        "Жёлтый мандарин"
+      ],
+      "heart": [
+        "Франжипани",
+        "Красный пион",
+        "Флёрдоранж",
+        "Жасмин самбак"
+      ],
+      "base": [
+        "Ваниль",
+        "Пачули",
+        "Тонка"
+      ]
+    },
+    "comparison": {
+      "originalDesc": "Яркий фруктово-цветочный женский аромат Carolina Herrera 2025 года.",
+      "solanoDesc": "Тот же узнаваемый характер за доступную цену",
+      "originalPrice": 12000,
+      "durabilityOriginal": "до 7 часов",
+      "durabilityS": "до 5 часов"
+    }
+  },
+  {
+    "id": 144,
+    "catalogNumber": "87",
+    "name": "Toscana Latte",
+    "subBrand": "Solano di Toscana",
+    "category": "унисекс",
+    "price": 2500,
+    "volume": 50,
+    "image": "/images/144-toscana-latte.webp",
+    "description": "Линия Solano di Toscana — мягкий гурманский унисекс-аромат в итальянском духе.",
+    "originalBrand": "Giardini di Toscana",
+    "originalName": "Bianco Latte",
+    "notes": {
+      "top": [
+        "Карамель"
+      ],
+      "heart": [
+        "Кумарин",
+        "Мёд"
+      ],
+      "base": [
+        "Ваниль",
+        "Белый мускус"
+      ]
+    },
+    "comparison": {
+      "originalDesc": "Амброво-гурманский унисекс-аромат итальянского дома Giardini di Toscana.",
+      "solanoDesc": "Тот же узнаваемый характер за доступную цену",
+      "originalPrice": 16000,
+      "durabilityOriginal": "до 24 часов",
+      "durabilityS": "до 10 часов"
+    }
   }
 ]

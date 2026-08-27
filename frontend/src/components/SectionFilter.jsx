@@ -3,6 +3,7 @@ import styles from './SectionFilter.module.css'
 const SECTIONS = [
   { id: 'solano', label: 'Solano' },
   { id: 'arabic', label: 'Арабский' },
+  { id: 'via-zheron', label: 'Viajero' },
 ]
 
 export default function SectionFilter({ active, onChange }) {
