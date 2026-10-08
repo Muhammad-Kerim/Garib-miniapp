@@ -37,6 +37,10 @@ export default function ProductCard({ product }) {
           src={product.image}
           alt={product.name}
           className={styles.img}
+          loading="lazy"
+          decoding="async"
+          width="600"
+          height="800"
           onError={e => { e.target.src = '/placeholder.jpg' }}
         />
         <button
@@ -48,7 +52,7 @@ export default function ProductCard({ product }) {
             <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
           </svg>
         </button>
-        <span className={styles.volume}>{product.volume} мл</span>
+        {product.volume ? <span className={styles.volume}>{product.volume} мл</span> : null}
         {soldOut && <span className={styles.soldOutBadge}>Нет в наличии</span>}
         {!soldOut && product.promo && <span className={styles.promoBadge}>{product.promo}</span>}
       </div>

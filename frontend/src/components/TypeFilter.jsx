@@ -4,7 +4,7 @@ const TYPES = [
   { id: 'все', label: 'Все' },
   { id: 'diffuser', label: 'Диффузоры' },
   { id: 'set5', label: 'Набор 5 шт' },
-  { id: 'set2', label: 'Набор 2 шт' },
+  { id: 'set2', label: 'Viajero 11 мл' },
 ]
 
 export default function TypeFilter({ active, onChange }) {

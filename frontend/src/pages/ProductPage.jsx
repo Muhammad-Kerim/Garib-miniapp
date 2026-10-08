@@ -50,7 +50,14 @@ export default function ProductPage() {
             {product.originalBrand ? `${product.originalBrand} · ${product.originalName}` : product.subBrand}
           </p>
           <h1 className={styles.name}>{product.name}</h1>
-          <p className={styles.catalogNo}>№{product.catalogNumber} · {product.volume} мл</p>
+          {product.catalogNumber || product.volume ? (
+            <p className={styles.catalogNo}>
+              {[
+                product.catalogNumber && `№${product.catalogNumber}`,
+                product.volume && `${product.volume} мл`,
+              ].filter(Boolean).join(' · ')}
+            </p>
+          ) : null}
         </div>
 
         {product.comparison && <FragranceComparison product={product} />}
@@ -66,7 +73,7 @@ export default function ProductPage() {
             <>
               <div className={styles.priceRow}>
                 <span className={styles.priceOnRequest}>Цена по запросу</span>
-                <span className={styles.volume}>{product.volume} мл</span>
+                {product.volume ? <span className={styles.volume}>{product.volume} мл</span> : null}
               </div>
               <a
                 className="btn-primary"
@@ -82,7 +89,7 @@ export default function ProductPage() {
             <>
               <div className={styles.priceRow}>
                 <span className={styles.price}>{product.price.toLocaleString('ru')} ₽</span>
-                <span className={styles.volume}>{product.volume} мл</span>
+                {product.volume ? <span className={styles.volume}>{product.volume} мл</span> : null}
               </div>
               {product.promo && <p className={styles.promoNote}>🔥 {product.promo}</p>}
               {soldOut ? (
