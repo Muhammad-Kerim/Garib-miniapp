@@ -7,6 +7,7 @@
     "originalName": "Eden Juicy Apple",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/01-apple-aden.webp",
     "comparison": {
@@ -42,6 +43,7 @@
     "originalName": "Molecule 01",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/02-ixo-mol-col.webp",
     "comparison": {
@@ -73,6 +75,7 @@
     "originalName": "Bright Crystal",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/03-night-crystal.webp",
     "comparison": {
@@ -109,6 +112,7 @@
     "originalName": "Après l'Amour",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/04-after-love.webp",
     "comparison": {
@@ -145,6 +149,7 @@
     "originalName": "Wood Sage & Sea Salt",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/05-joie-salanity.webp",
     "comparison": {
@@ -179,6 +184,7 @@
     "originalName": "Chance Eau Tendre",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/06-lucky-chance.webp",
     "comparison": {
@@ -213,6 +219,7 @@
     "originalName": "Chance Eau Fraîche",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/07-fresh-opport.webp",
     "comparison": {
@@ -248,6 +255,7 @@
     "originalName": "Éclat d'Arpège",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/08-enticing.webp",
     "comparison": {
@@ -284,6 +292,7 @@
     "originalName": "Pink Molécule 090·09",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/09-pink-sensual.webp",
     "comparison": {
@@ -318,6 +327,7 @@
     "originalName": "Kirke",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/10-scent-of-kerke.webp",
     "comparison": {
@@ -353,6 +363,7 @@
     "originalName": "Good Girl Gone Bad",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/11-good-and-bad.webp",
     "comparison": {
@@ -388,6 +399,7 @@
     "originalName": "Weekend",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/12-sunday.webp",
     "comparison": {
@@ -424,6 +436,7 @@
     "originalName": "Vanilla Sex",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/13-vanillic-winds.webp",
     "comparison": {
@@ -458,6 +471,7 @@
     "originalName": "Lost Cherry",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/14-cherry-lure.webp",
     "comparison": {
@@ -493,6 +507,7 @@
     "originalName": "Tobacco Vanille",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/15-sweet-tobacco.webp",
     "comparison": {
@@ -529,6 +544,7 @@
     "originalName": "Ganymede",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/16-ganimet.webp",
     "comparison": {
@@ -563,6 +579,7 @@
     "originalName": "Tilia",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/17-marcotilia.webp",
     "comparison": {
@@ -596,6 +613,7 @@
     "originalName": "Musk Kashmir",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/18-cashmere-musc.webp",
     "comparison": {
@@ -631,6 +649,7 @@
     "originalName": "Hayati",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/19-hayati.webp",
     "comparison": {
@@ -667,6 +686,7 @@
     "originalName": "L'Impératrice",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/20-imperatrice.webp",
     "comparison": {
@@ -701,6 +721,7 @@
     "originalName": "Delina",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/21-della.webp",
     "comparison": {
@@ -737,6 +758,7 @@
     "originalName": "Yara",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/22-yara.webp",
     "comparison": {
@@ -773,6 +795,7 @@
     "originalName": "Megamare",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/23-megadare.webp",
     "comparison": {
@@ -807,6 +830,7 @@
     "originalName": "Fleur Narcotique",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/24-floral-charm.webp",
     "comparison": {
@@ -843,6 +867,7 @@
     "originalName": "Blue Talisman",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/25-blue-insight.webp",
     "comparison": {
@@ -879,6 +904,7 @@
     "originalName": "Red Tobacco",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/26-rouge-tobacco.webp",
     "comparison": {
@@ -914,6 +940,7 @@
     "originalName": "Imagination",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/27-imagine.webp",
     "comparison": {
@@ -947,6 +974,7 @@
     "originalName": "Black Pepper & Amber",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/28-black-pepper-amber.webp",
     "comparison": {
@@ -981,6 +1009,7 @@
     "originalName": "Vanilla Blend",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/29-vanilla-mix.webp",
     "comparison": {
@@ -1015,6 +1044,7 @@
     "originalName": "Almaz",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/30-elmas.webp",
     "comparison": {
@@ -1049,6 +1079,7 @@
     "originalName": "Painter",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/31-painter.webp",
     "comparison": {
@@ -1084,6 +1115,7 @@
     "originalName": "Bois Impérial",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/32-imperial-essence.webp",
     "comparison": {
@@ -1119,6 +1151,7 @@
     "originalName": "Santal 33",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/33-santal-nyth.webp",
     "comparison": {
@@ -1155,6 +1188,7 @@
     "originalName": "Le Gemme Tygar",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/34-tygar.webp",
     "comparison": {
@@ -1190,6 +1224,7 @@
     "originalName": "Devil's Intrigue",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/35-devil-gamme.webp",
     "comparison": {
@@ -1225,6 +1260,7 @@
     "originalName": "Elysium",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/36-eleysium.webp",
     "comparison": {
@@ -1261,6 +1297,7 @@
     "originalName": "Oligarch",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/37-oligarch.webp",
     "comparison": {
@@ -1296,6 +1333,7 @@
     "originalName": "Oud for Greatness",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/38-greatness-oud.webp",
     "comparison": {
@@ -1330,6 +1368,7 @@
     "originalName": "Guidance",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/39-soul-force.webp",
     "comparison": {
@@ -1366,6 +1405,7 @@
     "originalName": "Aqua Allegoria Mandarine Basilic",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/40-happy-mandarine.webp",
     "comparison": {
@@ -1400,6 +1440,7 @@
     "originalName": "Marfa",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/41-magical-bloom.webp",
     "comparison": {
@@ -1433,6 +1474,7 @@
     "originalName": "Erba Pura",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/42-erba-cyan.webp",
     "comparison": {
@@ -1467,6 +1509,7 @@
     "originalName": "Narcos'is",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/43-narcos.webp",
     "comparison": {
@@ -1500,6 +1543,7 @@
     "originalName": "Black Afgano",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/44-afgano.webp",
     "comparison": {
@@ -1535,6 +1579,7 @@
     "originalName": "Mango Skin",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/45-mango-charm.webp",
     "comparison": {
@@ -1569,6 +1614,7 @@
     "originalName": "Hacivat",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/46-shadow-play.webp",
     "comparison": {
@@ -1605,6 +1651,7 @@
     "originalName": "Hundred Silent Ways",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/47-silent.webp",
     "comparison": {
@@ -1640,6 +1687,7 @@
     "originalName": "Bal d'Afrique",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/48-africa.webp",
     "comparison": {
@@ -1676,6 +1724,7 @@
     "originalName": "Crown Kiss Me Hedonistic",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/49-hedonistic.webp",
     "comparison": {
@@ -1712,6 +1761,7 @@
     "originalName": "Crown Matsukita",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/50-matsukita.webp",
     "comparison": {
@@ -1746,6 +1796,7 @@
     "originalName": "Crown XXI Art Deco",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/51-amberlive.webp",
     "comparison": {
@@ -1781,6 +1832,7 @@
     "originalName": "Symphony",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/52-symphony-rus.webp",
     "comparison": {
@@ -1815,6 +1867,7 @@
     "originalName": "Pacific Chill",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/53-big-ocean.webp",
     "comparison": {
@@ -1849,6 +1902,7 @@
     "originalName": "Afternoon Swim",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/54-afternoon-energy.webp",
     "comparison": {
@@ -1883,6 +1937,7 @@
     "originalName": "Miss Dior Blooming Bouquet",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/55-signora-fiorita.webp",
     "comparison": {
@@ -1916,6 +1971,7 @@
     "originalName": "J'adore",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/56-adoria.webp",
     "comparison": {
@@ -1952,6 +2008,7 @@
     "originalName": "Sauvage",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/57-wilder.webp",
     "comparison": {
@@ -1987,6 +2044,7 @@
     "originalName": "Libre",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/58-liberty.webp",
     "comparison": {
@@ -2022,6 +2080,7 @@
     "originalName": "Acqua di Giò",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/59-aqua-the-man.webp",
     "comparison": {
@@ -2058,6 +2117,7 @@
     "originalName": "Stronger With You Intensely",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/60-deep-power.webp",
     "comparison": {
@@ -2093,6 +2153,7 @@
     "originalName": "My Way",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/61-my-mode.webp",
     "comparison": {
@@ -2129,6 +2190,7 @@
     "originalName": "L.12.12 Blanc",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/62-white-croc.webp",
     "comparison": {
@@ -2164,6 +2226,7 @@
     "originalName": "Pour Femme",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/63-alligator.webp",
     "comparison": {
@@ -2199,6 +2262,7 @@
     "originalName": "Bleu de Chanel",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/64-blue-man.webp",
     "comparison": {
@@ -2235,6 +2299,7 @@
     "originalName": "Égoïste Platinum",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/65-plato.webp",
     "comparison": {
@@ -2270,6 +2335,7 @@
     "originalName": "Flora Gorgeous Gardenia",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/66-gardenia-glam.webp",
     "comparison": {
@@ -2304,6 +2370,7 @@
     "originalName": "Eau de Parfum",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/67-sweet-cloe.webp",
     "comparison": {
@@ -2339,6 +2406,7 @@
     "originalName": "Donna",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/68-true-donna.webp",
     "comparison": {
@@ -2375,6 +2443,7 @@
     "originalName": "L'Interdit",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/69-linderdit.webp",
     "comparison": {
@@ -2411,6 +2480,7 @@
     "originalName": "La Vie Est Belle",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/70-nice-the-life.webp",
     "comparison": {
@@ -2446,6 +2516,7 @@
     "originalName": "Boss Bottled",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/71-big-boss.webp",
     "comparison": {
@@ -2482,6 +2553,7 @@
     "originalName": "Dahab",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/72-diva.webp",
     "comparison": {
@@ -2517,6 +2589,7 @@
     "originalName": "Gaba",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/73-this-is-not-gaba.webp",
     "comparison": {
@@ -2550,6 +2623,7 @@
     "originalName": "Invictus",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/74-parabene.webp",
     "comparison": {
@@ -2586,6 +2660,7 @@
     "originalName": "Chimilka",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/75-cmilka.webp",
     "comparison": {
@@ -2626,6 +2701,7 @@
     "originalName": "Aventus",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/76-avendator.webp",
     "comparison": {
@@ -2662,6 +2738,7 @@
     "originalName": "Now",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/77-just-now.webp",
     "comparison": {
@@ -2695,6 +2772,7 @@
     "originalName": "Angels' Share",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/78-angels-interest.webp",
     "comparison": {
@@ -2731,6 +2809,7 @@
     "originalName": "White Chocolate",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/79-white-chocolate.webp",
     "comparison": {
@@ -2765,6 +2844,7 @@
     "originalName": "Baccarat Rouge 540 Extrait",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/80-crystal-red.webp",
     "comparison": {
@@ -2799,6 +2879,7 @@
     "originalName": "Baccarat Rouge 540",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/81-crystal-white.webp",
     "comparison": {
@@ -4150,6 +4231,7 @@
     "subBrand": "Solano · FOR",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/137-tempting-power.webp",
     "description": "Новая линия Solano FOR — мужской аромат с уверенным, притягательным характером.",
@@ -4185,6 +4267,7 @@
     "subBrand": "Solano · Skandal",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/138-aura.webp",
     "description": "Коллекция Solano Skandal — женский аромат с яркой, дерзкой аурой.",
@@ -4224,6 +4307,7 @@
     "subBrand": "Solano · Skandal",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/139-daring-sense.webp",
     "description": "Коллекция Solano Skandal — мужской аромат для тех, кто не боится выделяться.",
@@ -4257,6 +4341,7 @@
     "subBrand": "Solano · Elixir",
     "category": "мужские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/140-le-paul.webp",
     "description": "Премиальная линия Solano Elixir — насыщенный мужской аромат-эликсир.",
@@ -4292,6 +4377,7 @@
     "subBrand": "Solano",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/141-diviness.webp",
     "description": "Новый аромат Solano — женственный и утончённый характер.",
@@ -4326,6 +4412,7 @@
     "subBrand": "Solano",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/142-subtle-paradoxe.webp",
     "description": "Новый аромат Solano — игра контрастов в женском характере.",
@@ -4364,6 +4451,7 @@
     "subBrand": "Solano",
     "category": "женские",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/143-red-impact.webp",
     "description": "Новый аромат Solano — яркий и запоминающийся женский образ.",
@@ -4402,6 +4490,7 @@
     "subBrand": "Solano di Toscana",
     "category": "унисекс",
     "price": 2500,
+    "oldPrice": 3500,
     "volume": 50,
     "image": "/images/144-toscana-latte.webp",
     "description": "Линия Solano di Toscana — мягкий гурманский унисекс-аромат в итальянском духе.",

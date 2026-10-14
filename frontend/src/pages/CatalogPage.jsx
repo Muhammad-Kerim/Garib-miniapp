@@ -6,7 +6,11 @@ import SearchBar from '../components/SearchBar'
 import CategoryFilter from '../components/CategoryFilter'
 import SectionFilter from '../components/SectionFilter'
 import TypeFilter from '../components/TypeFilter'
+import { discount, SALE_LABEL } from '../lib/price'
 import styles from './CatalogPage.module.css'
+
+// Процент берём из самих данных, чтобы цифра в полосе не разъехалась с карточками
+const SALE = discount(products.find(p => p.oldPrice))
 
 const CHANNEL_URL = 'https://t.me/dukhi_parfumeria'
 
@@ -52,6 +56,12 @@ export default function CatalogPage() {
         {section === 'via-zheron'
           ? <TypeFilter active={type} onChange={setType} />
           : <CategoryFilter active={category} onChange={setCategory} />}
+
+        {section === 'solano' && SALE && (
+          <p className={styles.saleStrip}>
+            −{SALE.percent}% на всю линейку Solano {SALE_LABEL}
+          </p>
+        )}
 
         {filtered.length === 0 ? (
           <div className={styles.empty}>

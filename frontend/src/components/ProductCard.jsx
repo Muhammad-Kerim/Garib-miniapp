@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import { useCartStore } from '../store/cartStore'
 import { useFavoritesStore } from '../store/favoritesStore'
 import { useToastStore } from '../store/toastStore'
+import { discount } from '../lib/price'
 import styles from './ProductCard.module.css'
 
 export default function ProductCard({ product }) {
@@ -14,6 +15,7 @@ export default function ProductCard({ product }) {
   const fav = isFavorite(product.id)
   const soldOut = product.inStock === false
   const noPrice = product.price == null
+  const sale = discount(product)
 
   const handleAdd = (e) => {
     e.stopPropagation()
@@ -54,7 +56,8 @@ export default function ProductCard({ product }) {
         </button>
         {product.volume ? <span className={styles.volume}>{product.volume} мл</span> : null}
         {soldOut && <span className={styles.soldOutBadge}>Нет в наличии</span>}
-        {!soldOut && product.promo && <span className={styles.promoBadge}>{product.promo}</span>}
+        {!soldOut && sale && <span className={styles.discountBadge}>−{sale.percent}%</span>}
+        {!soldOut && !sale && product.promo && <span className={styles.promoBadge}>{product.promo}</span>}
       </div>
       <div className={styles.body}>
         <p className={styles.original}>
@@ -66,7 +69,18 @@ export default function ProductCard({ product }) {
             <span className={styles.priceOnRequest}>Цена по запросу</span>
           ) : (
             <>
-              <span className={styles.price}>{product.price.toLocaleString('ru')} ₽</span>
+              <div className={styles.priceBlock}>
+                {sale && (
+                  <s className={styles.oldPrice}>
+                    <span className="sr-only">Старая цена </span>
+                    {sale.oldPrice.toLocaleString('ru')} ₽
+                  </s>
+                )}
+                <span className={`${styles.price} ${sale ? styles.priceSale : ''}`}>
+                  {sale && <span className="sr-only">Цена со скидкой </span>}
+                  {product.price.toLocaleString('ru')} ₽
+                </span>
+              </div>
               <button
                 className={`${styles.addBtn} ${inCart ? styles.added : ''} ${soldOut ? styles.addBtnDisabled : ''}`}
                 onClick={handleAdd}

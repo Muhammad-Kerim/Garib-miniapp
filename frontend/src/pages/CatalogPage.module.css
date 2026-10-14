@@ -64,3 +64,16 @@
   box-shadow: 0 4px 16px rgba(34,158,217,0.4);
   white-space: nowrap;
 }
+
+.saleStrip {
+  margin: -4px 0 0;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--color-accent-soft);
+  border: 1px solid var(--color-accent-line);
+  color: var(--color-accent);
+  font-size: 13.5px;
+  font-weight: 600;
+  text-align: center;
+  text-wrap: balance;
+}

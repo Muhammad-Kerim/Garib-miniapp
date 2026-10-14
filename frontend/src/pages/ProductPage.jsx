@@ -3,6 +3,7 @@ import products from '../data/products.json'
 import { useCartStore } from '../store/cartStore'
 import FragranceComparison from '../components/FragranceComparison'
 import NotesPyramid from '../components/NotesPyramid'
+import { discount, SALE_LABEL } from '../lib/price'
 import styles from './ProductPage.module.css'
 
 export default function ProductPage() {
@@ -21,6 +22,7 @@ export default function ProductPage() {
   const inCart = items.some(i => i.id === product.id)
   const soldOut = product.inStock === false
   const noPrice = product.price == null
+  const sale = discount(product)
 
   return (
     <div className="page">
@@ -88,10 +90,20 @@ export default function ProductPage() {
           ) : (
             <>
               <div className={styles.priceRow}>
-                <span className={styles.price}>{product.price.toLocaleString('ru')} ₽</span>
+                {sale && (
+                  <s className={styles.oldPrice}>
+                    <span className="sr-only">Старая цена </span>
+                    {sale.oldPrice.toLocaleString('ru')} ₽
+                  </s>
+                )}
+                <span className={`${styles.price} ${sale ? styles.priceSale : ''}`}>
+                  {sale && <span className="sr-only">Цена со скидкой </span>}
+                  {product.price.toLocaleString('ru')} ₽
+                </span>
                 {product.volume ? <span className={styles.volume}>{product.volume} мл</span> : null}
               </div>
-              {product.promo && <p className={styles.promoNote}>🔥 {product.promo}</p>}
+              {sale && <p className={styles.saleNote}>Скидка {sale.percent}% — {SALE_LABEL}</p>}
+              {!sale && product.promo && <p className={styles.promoNote}>🔥 {product.promo}</p>}
               {soldOut ? (
                 <button className={`btn-primary ${styles.soldOutBtn}`} disabled>
                   Нет в наличии — скоро вернётся
