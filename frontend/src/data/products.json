@@ -5483,7 +5483,7 @@
     "name": "The World According to Arthur",
     "subBrand": "Penhaligon's",
     "category": "мужские",
-    "price": null,
+    "price": 5500,
     "volume": null,
     "image": "/images/190-penhaligons-arthur.webp",
     "description": "Аромат из коллекции Portraits британского дома Penhaligon’s, во флаконе с фигурной крышкой. Смелый, благородный, незабываемый.",
@@ -5495,7 +5495,7 @@
     "name": "Hayati",
     "subBrand": "Attar Collection",
     "category": "унисекс",
-    "price": null,
+    "price": 4500,
     "volume": 100,
     "image": "/images/191-attar-collection-hayati.webp",
     "notes": {
@@ -5524,7 +5524,7 @@
     "name": "This is not GABA",
     "subBrand": "Hormone Paris",
     "category": "унисекс",
-    "price": null,
+    "price": 5400,
     "volume": null,
     "image": "/images/192-hormone-paris-this-is-not-gaba.webp",
     "notes": {
@@ -5550,7 +5550,7 @@
     "name": "Kirkè",
     "subBrand": "Tiziana Terenzi",
     "category": "унисекс",
-    "price": null,
+    "price": 4500,
     "volume": null,
     "image": "/images/193-tiziana-terenzi-kirke.webp",
     "notes": {
@@ -5578,7 +5578,7 @@
     "name": "Bois Impérial",
     "subBrand": "Essential Parfums Paris",
     "category": "унисекс",
-    "price": null,
+    "price": 4500,
     "volume": null,
     "image": "/images/194-essential-parfums-bois-imperial.webp",
     "notes": {
@@ -5604,7 +5604,7 @@
     "name": "Molecule 02",
     "subBrand": "Escentric Molecules",
     "category": "унисекс",
-    "price": null,
+    "price": 3500,
     "volume": null,
     "image": "/images/195-escentric-molecules-molecule-02.webp",
     "description": "Аромат молекулярной чистоты — построен на одной молекуле амброксана и звучит по-разному на каждой коже. Минимализм, гармония, индивидуальность.",
@@ -5616,7 +5616,7 @@
     "name": "Painter",
     "subBrand": "Genyum",
     "category": "унисекс",
-    "price": null,
+    "price": 4500,
     "volume": null,
     "image": "/images/196-genyum-painter.webp",
     "notes": {
@@ -5644,7 +5644,7 @@
     "name": "Black Afgano",
     "subBrand": "Nasomatto",
     "category": "унисекс",
-    "price": null,
+    "price": 3500,
     "volume": null,
     "image": "/images/197-nasomatto-black-afgano.webp",
     "notes": {
@@ -5672,7 +5672,7 @@
     "name": "Tilia",
     "subBrand": "Marc-Antoine Barrois",
     "category": "унисекс",
-    "price": null,
+    "price": 5500,
     "volume": null,
     "image": "/images/198-marc-antoine-barrois-tilia.webp",
     "notes": {
@@ -5698,7 +5698,7 @@
     "name": "Devil's Intrigue",
     "subBrand": "Haute Fragrance Company",
     "category": "женские",
-    "price": null,
+    "price": 5500,
     "volume": null,
     "image": "/images/199-hfc-devils-intrigue.webp",
     "notes": {
@@ -5780,7 +5780,7 @@
     "name": "Good Girl Gone Bad",
     "subBrand": "Kilian Paris",
     "category": "женские",
-    "price": null,
+    "price": 4500,
     "volume": null,
     "image": "/images/202-kilian-good-girl-gone-bad.webp",
     "notes": {
@@ -5807,7 +5807,7 @@
     "name": "Not a Perfume",
     "subBrand": "Juliette Has a Gun",
     "category": "унисекс",
-    "price": null,
+    "price": 5500,
     "volume": null,
     "image": "/images/203-juliette-has-a-gun-not-a-perfume.webp",
     "description": "Аромат из одного компонента — цеталокса. Минималистичный, чистый, особенный: звучит по-разному на каждой коже.",
@@ -5975,7 +5975,7 @@
     "name": "Fleur Narcotique",
     "subBrand": "Ex Nihilo Paris",
     "category": "унисекс",
-    "price": null,
+    "price": 5500,
     "volume": null,
     "image": "/images/210-ex-nihilo-fleur-narcotique.webp",
     "notes": {
@@ -6003,7 +6003,7 @@
     "name": "Baccarat Rouge 540 Extrait",
     "subBrand": "Maison Francis Kurkdjian",
     "category": "унисекс",
-    "price": null,
+    "price": 5500,
     "volume": null,
     "image": "/images/211-mfk-baccarat-rouge-540-extrait.webp",
     "notes": {
@@ -6030,7 +6030,7 @@
     "name": "Narcos'is",
     "subBrand": "Vertus Paris",
     "category": "унисекс",
-    "price": null,
+    "price": 4500,
     "volume": 100,
     "image": "/images/212-vertus-narcos-is.webp",
     "notes": {
